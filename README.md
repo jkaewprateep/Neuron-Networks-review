@@ -3,7 +3,7 @@ Review of neuron networks class material from IBM data science
 
 ## Jupiter notebook files ##
 #### Images processing ####
-* 1.0_load_and_display_data.ipynb
+* 1.0_load_and_display_data.ipynb - Initial dataset from simple images using IO, PIL, matplotlib and pandas.
 * 2.1_data_loader_PyTorch.ipynb
 * 2.1.2_Images_with_python_library_CV.ipynb
 * 2.2.1_basic_image_manipulation_PIL.ipynb
