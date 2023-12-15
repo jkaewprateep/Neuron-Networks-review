@@ -23,7 +23,21 @@ flip = {"FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
         "TRANSVERSE": Image.TRANSVERSE}
 ```
 
-* 2.2.2_basic_image_manipulation_open_CV.ipynb
+##### 2.2.2_basic_image_manipulation_open_CV.ipynb ##### 
+- Image variable and image id reference 🐑💬 There is no need to copy the entire array because the image is a dataset of array you can use Id references, PIL images important properties, CV2 with image rotate and flip functions, CV2 crop image, CV2 draw a rectangular inside image and CV2 putText, cv2 image flip.
+
+```
+flip = {
+         "FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
+         "FLIP_TOP_BOTTOM": Image.FLIP_TOP_BOTTOM,
+         "ROTATE_90": Image.ROTATE_90,
+         "ROTATE_180": Image.ROTATE_180,
+         "ROTATE_270": Image.ROTATE_270,
+         "TRANSPOSE": Image.TRANSPOSE, 
+         "TRANSVERSE": Image.TRANSVERSE
+        }
+```
+
 * 2.3.2_Histogram_and_Intensity_Transformations.ipynb
 * 2.4.1_Gemetric_trasfroms_PIL.ipynb
 * 2.4.2_Gemetric_trasfroms_OpenCV.ipynb
