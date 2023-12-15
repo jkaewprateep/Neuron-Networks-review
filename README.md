@@ -29,9 +29,10 @@ flip = {
 - Image variable and image id reference 🐑💬 There is no need to copy the entire array because the image is a dataset of array you can use Id references, PIL images important properties, CV2 with image rotate and flip functions, CV2 crop image, CV2 draw a rectangular inside image and CV2 putText, cv2 image flip.
 
 ```
-flip = {          "ROTATE_90_CLOCKWISE":cv2.ROTATE_90_CLOCKWISE,
-                  "ROTATE_90_COUNTERCLOCKWISE":cv2.ROTATE_90_COUNTERCLOCKWISE,
-                  "ROTATE_180":cv2.ROTATE_180
+flip = {
+         "ROTATE_90_CLOCKWISE":cv2.ROTATE_90_CLOCKWISE,
+         "ROTATE_90_COUNTERCLOCKWISE":cv2.ROTATE_90_COUNTERCLOCKWISE,
+         "ROTATE_180":cv2.ROTATE_180
        }
 ```
 
