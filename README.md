@@ -14,13 +14,7 @@ Review of neuron networks class material from IBM data science
 
 ##### PIL ImageOps rotation for image.transpose() function #####
 ```
-flip = {"FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
-        "FLIP_TOP_BOTTOM": Image.FLIP_TOP_BOTTOM,
-        "ROTATE_90": Image.ROTATE_90,
-        "ROTATE_180": Image.ROTATE_180,
-        "ROTATE_270": Image.ROTATE_270,
-        "TRANSPOSE": Image.TRANSPOSE, 
-        "TRANSVERSE": Image.TRANSVERSE}
+flip = {"ROTATE_90_CLOCKWISE":cv2.ROTATE_90_CLOCKWISE,"ROTATE_90_COUNTERCLOCKWISE":cv2.ROTATE_90_COUNTERCLOCKWISE,"ROTATE_180":cv2.ROTATE_180}
 ```
 
 ##### 2.2.2_basic_image_manipulation_open_CV.ipynb ##### 
