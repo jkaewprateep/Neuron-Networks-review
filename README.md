@@ -7,8 +7,9 @@ Review of neuron networks class material from IBM data science
 - Initial dataset from simple images using IO, PIL, matplotlib and pandas.
 ##### 2.1_data_loader_PyTorch.ipynb ##### 
 - Prepare the dataset by creating folders for each type of target categorized for AI-supervised learning with sample sizes and ratios.
+##### 2.1.2_Images_with_python_library_CV.ipynb ##### 
+- Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colurs, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.  
 
-* 2.1.2_Images_with_python_library_CV.ipynb
 * 2.2.1_basic_image_manipulation_PIL.ipynb
 * 2.2.2_basic_image_manipulation_open_CV.ipynb
 * 2.3.2_Histogram_and_Intensity_Transformations.ipynb
