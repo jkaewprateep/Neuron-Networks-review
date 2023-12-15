@@ -9,8 +9,20 @@ Review of neuron networks class material from IBM data science
 - Prepare the dataset by creating folders for each type of target categorized for AI-supervised learning with sample sizes and ratios.
 ##### 2.1.2_Images_with_python_library_CV.ipynb ##### 
 - Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colurs, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.  
+##### 2.2.1_basic_image_manipulation_PIL.ipynb ##### 
+- Introduce Python array management library Numpy, copy image array for new identity of same value for parallel images processing, object Id value and references, working with images as an array, image array properties, using Numpy array function to working with image sample flip and ImageOps from PIL,
 
-* 2.2.1_basic_image_manipulation_PIL.ipynb
+##### PIL ImageOps rotation for image.transpose() function #####
+```
+flip = {"FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
+        "FLIP_TOP_BOTTOM": Image.FLIP_TOP_BOTTOM,
+        "ROTATE_90": Image.ROTATE_90,
+        "ROTATE_180": Image.ROTATE_180,
+        "ROTATE_270": Image.ROTATE_270,
+        "TRANSPOSE": Image.TRANSPOSE, 
+        "TRANSVERSE": Image.TRANSVERSE}
+```
+
 * 2.2.2_basic_image_manipulation_open_CV.ipynb
 * 2.3.2_Histogram_and_Intensity_Transformations.ipynb
 * 2.4.1_Gemetric_trasfroms_PIL.ipynb
