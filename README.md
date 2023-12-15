@@ -14,13 +14,6 @@ Review of neuron networks class material from IBM data science
 
 ##### PIL ImageOps rotation for image.transpose() function #####
 ```
-flip = {"ROTATE_90_CLOCKWISE":cv2.ROTATE_90_CLOCKWISE,"ROTATE_90_COUNTERCLOCKWISE":cv2.ROTATE_90_COUNTERCLOCKWISE,"ROTATE_180":cv2.ROTATE_180}
-```
-
-##### 2.2.2_basic_image_manipulation_open_CV.ipynb ##### 
-- Image variable and image id reference 🐑💬 There is no need to copy the entire array because the image is a dataset of array you can use Id references, PIL images important properties, CV2 with image rotate and flip functions, CV2 crop image, CV2 draw a rectangular inside image and CV2 putText, cv2 image flip.
-
-```
 flip = {
          "FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
          "FLIP_TOP_BOTTOM": Image.FLIP_TOP_BOTTOM,
@@ -30,6 +23,16 @@ flip = {
          "TRANSPOSE": Image.TRANSPOSE, 
          "TRANSVERSE": Image.TRANSVERSE
         }
+```
+
+##### 2.2.2_basic_image_manipulation_open_CV.ipynb ##### 
+- Image variable and image id reference 🐑💬 There is no need to copy the entire array because the image is a dataset of array you can use Id references, PIL images important properties, CV2 with image rotate and flip functions, CV2 crop image, CV2 draw a rectangular inside image and CV2 putText, cv2 image flip.
+
+```
+flip = {          "ROTATE_90_CLOCKWISE":cv2.ROTATE_90_CLOCKWISE,
+                  "ROTATE_90_COUNTERCLOCKWISE":cv2.ROTATE_90_COUNTERCLOCKWISE,
+                  "ROTATE_180":cv2.ROTATE_180
+       }
 ```
 
 * 2.3.2_Histogram_and_Intensity_Transformations.ipynb
