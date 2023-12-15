@@ -15,7 +15,6 @@ Review of neuron networks class material from IBM data science
 * 2.5.2_Spatial_Filtering.ipynb
 * 3.1_linearclassiferPytorch.ipynb
 * AI Capstone Project with Deep Learning.ipynb
-* CNN.ipynb
 
 #### Basics Nuerons Networks methodology ####
 * DL0101EN-1-1-Forward-Propgation-py-v1.0.ipynb
@@ -39,6 +38,7 @@ Review of neuron networks class material from IBM data science
 * ML0120EN-Eager_Execution.ipynb
 
 #### Applied sciences for basics neurons networks and adaptation ####
+* CNN.ipynb
 * Neural_Network_RELU_vs_Sigmoid.ipynb
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
