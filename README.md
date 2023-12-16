@@ -89,7 +89,44 @@ M = np.float32([[1, 0, tx], [0, 1, ty]])
 new_image = cv2.warpAffine(image, M, (cols, rows))
 ```
 
-* 2.5.1_Spatial_Filtering-PIL.ipynb
+##### 2.5.1_Spatial_Filtering-PIL.ipynb ##### 
+- Linear filtering PIL ImageFilter, Gaussian blur ImageFilter.GaussianBlur, or ImageFilter.GaussianBlur(n_size), 
+
+##### Create custom image filters #####
+🐑💬 The same as stride matrix or manipulation matrix in image convolution layers.
+```
+# Create a kernel which is a 5 by 5 array where each value is 1/36
+kernel = np.ones((5,5))/36
+# Create a ImageFilter Kernel by providing the kernel size and a flattened kernel
+kernel_filter = ImageFilter.Kernel((5,5), kernel.flatten())
+```
+
+##### Image sharpen custom filters #####
+Ref[0]: https://en.wikipedia.org/wiki/Kernel_(image_processing)
+
+##### Common Kernel for image sharpening #####
+```
+kernel = np.array([[-1,-1,-1], 
+                   [-1, 9,-1],
+                   [-1,-1,-1]])
+kernel = ImageFilter.Kernel((3,3), kernel.flatten())
+```
+
+##### Ridge or edge detection #####
+```
+kernel = np.array([[ 0,-1, 0], 
+                   [-1, 4,-1],
+                   [ 0,-1, 0]])
+kernel = ImageFilter.Kernel((3,3), kernel.flatten())
+
+or
+
+kernel = np.array([[-1,-1,-1], 
+                   [-1, 8,-1],
+                   [-1,-1,-1]])
+kernel = ImageFilter.Kernel((3,3), kernel.flatten())
+```
+
 * 2.5.2_Spatial_Filtering.ipynb
 * 3.1_linearclassiferPytorch.ipynb
 * AI Capstone Project with Deep Learning.ipynb
