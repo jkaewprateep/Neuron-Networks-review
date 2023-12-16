@@ -81,7 +81,7 @@ cv2.INTER_LINEAR: Linear scale manipulation method. This is the default interpol
 
 ##### Image translation #####
 - 🐑💬 Translation image by image shifted or image phase, image phase translation is required when you need to compare two graphs of their alignment.
-- 🦭💬 For linear comparison we do not need to have graphs collide but similarity and significant values.    
+- 🦭💬 For linear comparison we do not need to have graphs collide but similarity and significant values. 🎛🎚🌐   
 ```
 tx = 100
 ty = 0
