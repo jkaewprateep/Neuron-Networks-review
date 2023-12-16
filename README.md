@@ -46,9 +46,9 @@ new_image = cv2.convertScaleAbs(goldhill, alpha=alpha, beta=beta)
 ```
 
 ##### Image binary ratios #####
-🐑💬 cv2.THRESH_BINARY is the original idea to reduce the number of different inputs for the compression method and restore by intensity scales on the client.
-<br>🧸💬 cv2.THRESH_TRUNC is the enchant matrixes of no-meaning pixels.</br>
-<br>🐐💬 cv2.THRESH_OTSU is to solve the problem about unfairs selected representing matrix.</br>
+- 🐑💬 cv2.THRESH_BINARY is the original idea to reduce the number of different inputs for the compression method and restore by intensity scales on the client.
+- 🧸💬 cv2.THRESH_TRUNC is the enchant matrixes of no-meaning pixels.
+- 🐐💬 cv2.THRESH_OTSU is to solve the problem about unfairs selected representing matrix.
 ```
 cv2.THRESH_BINARY
 cv2.THRESH_TRUNC
