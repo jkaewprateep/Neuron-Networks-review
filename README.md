@@ -132,7 +132,38 @@ kernel = ImageFilter.Kernel((3,3), kernel.flatten())
 ImageFilter.MedianFilter
 ```
 
-* 2.5.2_Spatial_Filtering.ipynb
+##### 2.5.2_Spatial_Filtering.ipynb ##### 
+- Linear Filtering, Filtering Noise, Gaussian Blur, and removal 🐑💬 This is used in printing technology. Image Sharpening, Edges, Sobel, Linear scales conversion cv2.convertScaleAbs, Sum derivative image cv2.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0) 🐑💬 Image depth enchantment method. Image median blur cv2.medianBlur and thereshold function parameter cv2.threshold. 
+
+##### Linear Filtering #####
+```
+# Create a kernel which is a 6 by 6 array where each value is 1/36
+kernel = np.ones((6,6))/36
+
+# Filters the images using the kernel
+image_filtered = cv2.filter2D(src=noisy_image, ddepth=-1, kernel=kernel)
+```
+
+##### GaussianBlur #####
+```
+image_filtered = cv2.GaussianBlur(noisy_image,(5,5),sigmaX=4,sigmaY=4)
+```
+
+##### Sobel function #####
+🐑💬 Derivative of image in X or Y direction, both X and Y derivative is complexed.
+```
+ddepth = cv2.CV_16S
+# Applys the filter on the image in the X direction
+grad_x = cv2.Sobel(src=img_gray, ddepth=ddepth, dx=1, dy=0, ksize=3)
+```
+
+##### Threshold Function Parameters #####
+🐑💬 For fairs selected and meaning pixels.
+```
+# Returns ret which is the threshold used and outs which is the image
+ret, outs = cv2.threshold(src = image, thresh = 0, maxval = 255, type = cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV)
+```
+
 * 3.1_linearclassiferPytorch.ipynb
 * AI Capstone Project with Deep Learning.ipynb
 
