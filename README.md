@@ -347,3 +347,13 @@ print( max( accuracy_list ) )
 |-----:|---------------|---------------|
 |     1| https://en.wikipedia.org/wiki/Kernel_(image_processing) | Linear filtering image matrixes and useful method |
 |     2| IBM Data Science's Jupiter NoteBook | IBM Data Science course on Coursera |
+
+## Applications ##
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg">
+</picture>
+
+https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg
+
+
