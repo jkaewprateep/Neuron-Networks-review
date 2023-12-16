@@ -55,7 +55,13 @@ cv2.THRESH_TRUNC
 cv2.THRESH_OTSU
 ```
 
-* 2.4.1_Gemetric_trasfroms_PIL.ipynb
+##### 2.4.1_Gemetric_trasfroms_PIL.ipynb ##### 
+- PIL image rescales, image rotation, image as array number identification, image greyscales, singular value decomposition 🐑💬 It is the decomposing of the image into diagonal and vector images, it has the same properties as images for identity identification and process if you are using correct by its design and you can combined them after operation. This way to prevent you from having original images but you still can process them. Regeneration of different scale images for information. 🐐💬 We can apply this algorithm to multiple layers of image.
+
+```
+U, s, V = np.linalg.svd(im_gray , full_matrices=True)
+```
+
 * 2.4.2_Gemetric_trasfroms_OpenCV.ipynb
 * 2.5.1_Spatial_Filtering-PIL.ipynb
 * 2.5.2_Spatial_Filtering.ipynb
