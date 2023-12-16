@@ -164,7 +164,151 @@ grad_x = cv2.Sobel(src=img_gray, ddepth=ddepth, dx=1, dy=0, ksize=3)
 ret, outs = cv2.threshold(src = image, thresh = 0, maxval = 255, type = cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV)
 ```
 
-* 3.1_linearclassiferPytorch.ipynb
+##### 3.1_linearclassiferPytorch.ipynb ##### 
+- Pytorch dataset from image initialize object, Transform Object and Dataset Object, Convert array inputs to tensor object, Convert tensors object to Pytorch dataset object, SoftMax custom module, Optimizer, Citerian or loss value optimization functions and historical record, Data Loader
+
+##### Pytorch dataset object class #####
+```
+class Dataset(Dataset):
+
+    # Constructor
+    def __init__(self,transform=None,train=True):
+        directory="/resources/data"
+        positive="Positive"
+        negative="Negative"
+
+        positive_file_path=os.path.join(directory,positive)
+        negative_file_path=os.path.join(directory,negative)
+        positive_files=[os.path.join(positive_file_path,file) for file in  os.listdir(positive_file_path) if file.endswith(".jpg")]
+        positive_files.sort()
+        negative_files=[os.path.join(negative_file_path,file) for file in  os.listdir(negative_file_path) if file.endswith(".jpg")]
+        negative_files.sort()
+        number_of_samples=len(positive_files)+len(negative_files)
+        self.all_files=[None]*number_of_samples
+        self.all_files[::2]=positive_files
+        self.all_files[1::2]=negative_files 
+        # The transform is goint to be used on image
+        self.transform = transform
+        #torch.LongTensor
+        self.Y=torch.zeros([number_of_samples]).type(torch.LongTensor)
+        self.Y[::2]=1
+        self.Y[1::2]=0
+        
+        if train:
+            self.all_files=self.all_files[0:10000] #Change to 30000 to use the full test dataset
+            self.Y=self.Y[0:10000] #Change to 30000 to use the full test dataset
+            self.len=len(self.all_files)
+        else:
+            self.all_files=self.all_files[30000:]
+            self.Y=self.Y[30000:]
+            self.len=len(self.all_files)    
+       
+    # Get the length
+    def __len__(self):
+        return self.len
+    
+    # Getter
+    def __getitem__(self, idx):
+        
+        
+        image = Image.open(self.all_files[idx])
+        image = image.resize((28, 28))
+        y=self.Y[idx]
+          
+        
+        # If there is any transform method, apply it onto the image
+        if self.transform:
+            image = self.transform(image)
+
+        return image, y
+```
+
+##### Convert array inputs to tensor object #####
+```
+mean = [0.485, 0.456, 0.406]
+std = [0.229, 0.224, 0.225]
+transform =transforms.Compose([ transforms.ToTensor(), transforms.Normalize(mean, std)])
+```
+
+##### Convert tensors object to Pytorch dataset object #####
+```
+dataset_train=Dataset(transform=transform,train=True)
+dataset_val=Dataset(transform=transform,train=False)
+```
+
+##### SoftMax custom module #####
+```
+class SoftMax(nn.Module):
+    
+    # Constructor
+    # 1. The input size should be the size_of_image
+    # 2. You should record the maximum accuracy achieved on the validation data for the different epochs
+    # For example if the 5 epochs the accuracy was 0.5, 0.2, 0.64,0.77, 0.66 you would select 0.77.
+    
+    # 🧸💬 Linear layer normally we working with same input and output the question does not tell you
+    # about target size but as it is linear the activation and the output layer can caragorize objects
+    # you also can apply binary catagorized or sphase catagorizes.
+    def __init__(self, input_size, output_size):
+        super(SoftMax, self).__init__()
+        self.linear = nn.Linear(input_size, output_size)
+        
+    # Prediction
+    def forward(self, x):
+        z = self.linear(x)
+        return z
+
+model = SoftMax( input_dims, output_dims )
+```
+
+##### Optimizer #####
+```
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate, momentum=0.1)
+```
+
+##### Citerian or loss value optimization functions and historical record #####
+```
+criterion = nn.CrossEntropyLoss()
+```
+
+##### Data Loader #####
+```
+train_loader = torch.utils.data.DataLoader(dataset=dataset_train, batch_size=100)
+validation_loader = torch.utils.data.DataLoader(dataset=dataset_val, batch_size=50)
+```
+
+##### Train Model #####
+```
+# batch size training:5
+n_epochs = 5
+loss_list = []
+accuracy_list = []
+N_test = len(dataset_val)
+
+def train_model(n_epochs):
+    for epoch in range(n_epochs):
+        for x, y in train_loader:
+            optimizer.zero_grad()
+            z = model(x.view(-1, 28 * 28 * 3))
+            loss = criterion(z, y)
+            loss.backward()
+            optimizer.step()
+            
+        correct = 0
+        # perform a prediction on the validationdata  
+        for x_test, y_test in validation_loader:
+            z = model(x_test.view(-1, 28 * 28 * 3))
+            _, yhat = torch.max(z.data, 1)
+            correct += (yhat == y_test).sum().item()
+        accuracy = correct / N_test
+        loss_list.append(loss.data)
+        accuracy_list.append(accuracy)
+
+train_model(n_epochs)
+
+print( max( accuracy_list ) )
+```
+
+
 * AI Capstone Project with Deep Learning.ipynb
 
 #### Basics Nuerons Networks methodology ####
