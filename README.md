@@ -63,7 +63,7 @@ U, s, V = np.linalg.svd(im_gray , full_matrices=True)
 ```
 
 ##### 2.4.2_Gemetric_trasfroms_OpenCV.ipynb ##### 
-- CV2.resize image resize using CV2, image translation, 
+- CV2.resize image resize using CV2, image translation, cv2.getRotationMatrix2D image rotation, image colour label transformation cv2.cvtColor(new_image, cv2.COLOR_BGR2RGB), noise image generation, singular value decomposition or linear alignment decomposition 👧💬 Select correct ratios noise supposed to be random not aligned with the image linear ratios. 
 
 ##### Image resizing interpolation method #####
 - source is image input.
