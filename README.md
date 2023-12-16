@@ -165,7 +165,7 @@ ret, outs = cv2.threshold(src = image, thresh = 0, maxval = 255, type = cv2.THRE
 ```
 
 ##### 3.1_linearclassiferPytorch.ipynb ##### 
-- Pytorch dataset from image initialize object, Transform Object and Dataset Object, Convert array inputs to tensor object, Convert tensors object to Pytorch dataset object, SoftMax custom module, Optimizer, Citerian or loss value optimization functions and historical record, Data Loader
+- Pytorch dataset from image initialize object, Transform Object and Dataset Object, Convert array inputs to tensor object, Convert tensors object to Pytorch dataset object, SoftMax custom module, Optimizer, Citerian or loss value optimization functions and historical record, Data Loader and Train Model.
 
 ##### Pytorch dataset object class #####
 ```
@@ -308,9 +308,6 @@ train_model(n_epochs)
 print( max( accuracy_list ) )
 ```
 
-
-* AI Capstone Project with Deep Learning.ipynb
-
 #### Basics Nuerons Networks methodology ####
 * DL0101EN-1-1-Forward-Propgation-py-v1.0.ipynb
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
@@ -343,5 +340,10 @@ print( max( accuracy_list ) )
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
+* AI Capstone Project with Deep Learning.ipynb
 
-
+## References ##
+| Number of references | Target sources | Description |
+|-----:|---------------|---------------|
+|     1| https://en.wikipedia.org/wiki/Kernel_(image_processing) | Linear filtering image matrixes and useful method |
+|     2| IBM Data Science's Jupiter NoteBook | IBM Data Science course on Coursera |
