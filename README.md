@@ -353,7 +353,3 @@ print( max( accuracy_list ) )
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg">
 </picture>
-
-https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/object_detection_in_games_environment.jpg
-
-
