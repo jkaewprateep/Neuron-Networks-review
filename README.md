@@ -62,7 +62,33 @@ cv2.THRESH_OTSU
 U, s, V = np.linalg.svd(im_gray , full_matrices=True)
 ```
 
-* 2.4.2_Gemetric_trasfroms_OpenCV.ipynb
+##### 2.4.2_Gemetric_trasfroms_OpenCV.ipynb ##### 
+- CV2.resize image resize using CV2, image translation, 
+
+##### Image resizing interpolation method #####
+- source is image input.
+- dsize is the target dimension.
+- fx is the scale factor of horizontal pixels.
+- fy is the scale factor of vertical pixels.
+- interpolation is target interpolation method.
+```
+cv2.resize(toy_image, None, fx=2, fy=1, interpolation = cv2.INTER_NEAREST )
+
+cv2.INTER_AREA: Area corresponding method.
+cv2.INTER_CUBIC: Matrix corresponding method.
+cv2.INTER_LINEAR: Linear scale manipulation method. This is the default interpolation technique in OpenCV.
+```
+
+##### Image translation #####
+- 🐑💬 Translation image by image shifted or image phase, image phase translation is required when you need to compare two graphs of their alignment.
+- 🦭💬 For linear comparison we do not need to have graphs collide but similarity and significant values.    
+```
+tx = 100
+ty = 0
+M = np.float32([[1, 0, tx], [0, 1, ty]])
+new_image = cv2.warpAffine(image, M, (cols, rows))
+```
+
 * 2.5.1_Spatial_Filtering-PIL.ipynb
 * 2.5.2_Spatial_Filtering.ipynb
 * 3.1_linearclassiferPytorch.ipynb
