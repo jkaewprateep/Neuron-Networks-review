@@ -36,7 +36,23 @@ flip = {
        }
 ```
 
-* 2.3.2_Histogram_and_Intensity_Transformations.ipynb
+##### 2.3.2_Histogram_and_Intensity_Transformations.ipynb ##### 
+- Numpy arrays management library, matplotlib plot, subplot, histogram of image and arrays, bar chart, greyscale, histogram sequence calculation from cv2.calcHist 🐑💬 Image identification by intensity distribution you need to select correct channel or ranges, image input scales from [0, 1] to [0, 255] or *[-255, 255], CV rectangular draw, image brightness and fundamental. 🐑💬 Linear modulo image for medical investigation, contrast adjustment 🧸💬 We do not compare the image's intensity amplitudes but the pattern or we can transform them into the frequency domain using a short-time furrier transform. Histogram equalization 🐑💬 It is a matrixes linear scales method. Thresholding and simple segmentation by response range of image input representing, transform image from its scales to another scales by conditions or domain variance.  
+
+```
+new_image = cv2.convertScaleAbs(goldhill, alpha=alpha, beta=beta)
+```
+
+##### Image binary ratios #####
+🐑💬 cv2.THRESH_BINARY is the original idea to reduce the number of different inputs for the compression method and restore by intensity scales on the client.
+🧸💬 cv2.THRESH_TRUNC is the enchant matrixes of no-meaning pixels.
+🐐💬 cv2.THRESH_OTSU is to solve the problem about unfairs selected representing matrix.
+```
+cv2.THRESH_BINARY
+cv2.THRESH_TRUNC
+cv2.THRESH_OTSU
+```
+
 * 2.4.1_Gemetric_trasfroms_PIL.ipynb
 * 2.4.2_Gemetric_trasfroms_OpenCV.ipynb
 * 2.5.1_Spatial_Filtering-PIL.ipynb
