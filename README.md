@@ -90,7 +90,7 @@ new_image = cv2.warpAffine(image, M, (cols, rows))
 ```
 
 ##### 2.5.1_Spatial_Filtering-PIL.ipynb ##### 
-- Linear filtering PIL ImageFilter, Gaussian blur ImageFilter.GaussianBlur, or ImageFilter.GaussianBlur(n_size), 
+- Linear filtering PIL ImageFilter, Gaussian blur ImageFilter.GaussianBlur, or ImageFilter.GaussianBlur(n_size), image sharpening ImageFilter.SHARPEN, Ridge or edge detection ImageFilter.EDGE_ENHANCE and ImageFilter.FIND_EDGES, and ImageFilter.MedianFilter.
 
 ##### Create custom image filters #####
 🐑💬 The same as stride matrix or manipulation matrix in image convolution layers.
@@ -104,7 +104,7 @@ kernel_filter = ImageFilter.Kernel((5,5), kernel.flatten())
 ##### Image sharpen custom filters #####
 Ref[0]: https://en.wikipedia.org/wiki/Kernel_(image_processing)
 
-##### Common Kernel for image sharpening #####
+##### Common Kernel for image sharpening, ImageFilter.SHARPEN #####
 ```
 kernel = np.array([[-1,-1,-1], 
                    [-1, 9,-1],
@@ -112,7 +112,7 @@ kernel = np.array([[-1,-1,-1],
 kernel = ImageFilter.Kernel((3,3), kernel.flatten())
 ```
 
-##### Ridge or edge detection #####
+##### Ridge or edge detection, ImageFilter.EDGE_ENHANCE and ImageFilter.FIND_EDGES #####
 ```
 kernel = np.array([[ 0,-1, 0], 
                    [-1, 4,-1],
@@ -125,6 +125,11 @@ kernel = np.array([[-1,-1,-1],
                    [-1, 8,-1],
                    [-1,-1,-1]])
 kernel = ImageFilter.Kernel((3,3), kernel.flatten())
+```
+
+🐑💬 Another way is to use median filters for edge selection.
+```
+ImageFilter.MedianFilter
 ```
 
 * 2.5.2_Spatial_Filtering.ipynb
