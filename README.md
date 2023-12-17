@@ -87,6 +87,8 @@ def update( frame ):
 
 ##### PIL ImageOps rotation for image.transpose() function #####
 🧸💬 It is Enumurator number mapping of functions and you can find some usages such as cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV that depends on the mode number they are setting.
+[Jump to]([https://github.com/jkaewprateep/LittleLemonAPI](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#ops-codes))
+
 
 ```
 flip = {
