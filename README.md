@@ -439,6 +439,7 @@ print('The weighted sum of the inputs at the first node in the hidden layer is {
 a_11 = 1.0 / (1.0 + np.exp(-z_11))
 ```
 🐑💬 The same as training history, loss value and pre-defined value in historical small_network['layer_1']['node_1']['weights'] is sum layer weight and small_network['layer_1']['node_1']['bias'] is sum layer bias. The compute_weighted_sum function is a summary of the network's bias and network weight function, the actual training function should sum of new approaches with current by drawing from the estimation function or loss estimation value for the gradient decent method.
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Cylindical-Problem)
 ```
 ### type your answer here
 small_network = initialize_network(5, 3, [3, 2, 3], 1)
@@ -448,6 +449,15 @@ node_bias = small_network['layer_1']['node_1']['bias']
 
 weighted_sum = compute_weighted_sum(inputs, node_weights, node_bias)
 print('The weighted sum at the first node in the hidden layer is {}'.format(np.around(weighted_sum[0], decimals=4)))
+```
+🧸💬 The node activation function is to create contrast differentiation of input values with specific conditions or mathematical methods. The fastest way is to use an absolute function that is because it is a linear function, the sample of an absolute function is an alphabet ruler, and single-layer networks have something direct to answer such as a push button.
+```
+def node_activation(weighted_sum):
+    return 1.0 / (1.0 + np.exp(-1 * weighted_sum))
+
+### type your answer here
+node_output  = node_activation(compute_weighted_sum(inputs, node_weights, node_bias))
+print('The output of the first node in the hidden layer is {}'.format(np.around(node_output[0], decimals=4)))
 ```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
@@ -519,4 +529,10 @@ print('The weighted sum at the first node in the hidden layer is {}'.format(np.a
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_loader.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_loader.jpg">
+</picture>
+
+#### Cylindical Problem ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cylindical_problem.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cylindical_problem.jpg">
 </picture>
