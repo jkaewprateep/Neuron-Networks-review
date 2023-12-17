@@ -77,10 +77,7 @@ def update( frame ):
 
     return im
 ```
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection.jpg">
-  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection.jpg">
-</picture>
+
 
 ##### 2.2.1_basic_image_manipulation_PIL.ipynb ##### 
 - Introduce Python array management library Numpy, copy image array for new identity of same value for parallel images processing, object Id value and references, working with images as an array, image array properties, using Numpy array function to working with image sample flip and ImageOps from PIL, image array cropping using Numpy and Python array fundamental and value update, PIL image draw with fill colour function, * image font from PIL ImageFont, image overlay with cropped image.
@@ -437,4 +434,10 @@ print( max( accuracy_list ) )
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/error_ops_codes.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/error_ops_codes.jpg">
+</picture>
+
+#### Imges centre detection ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection.jpg">
 </picture>
