@@ -221,7 +221,9 @@ ImageFilter.MedianFilter
 ```
 
 ##### 2.5.2_Spatial_Filtering.ipynb ##### 
-- Linear Filtering, Filtering Noise, Gaussian Blur, and removal 🐑💬 This is used in printing technology. Image Sharpening, Edges, Sobel, Linear scales conversion cv2.convertScaleAbs, Sum derivative image cv2.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0) 🐑💬 Image depth enchantment method. Image median blur cv2.medianBlur and thereshold function parameter cv2.threshold. 
+- Linear Filtering, Filtering Noise, Gaussian Blur, and removal.
+- 🐑💬 This is used in printing technology. Image Sharpening, Edges, Sobel, Linear scales conversion cv2.convertScaleAbs, Sum derivative image cv2.addWeighted(abs_grad_x, 0.5, abs_grad_y, 0.5, 0)
+- 🐑💬 Image depth enchantment method. Image median blur cv2.medianBlur and thereshold function parameter cv2.threshold. 
 
 ##### Linear Filtering #####
 ```
