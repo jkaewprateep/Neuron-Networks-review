@@ -25,6 +25,7 @@ class CustomDataset(Dataset):
 
     def __getitem__(self, idx):
         ...
+
     🧸💬 Possible working with internal function for validation or random numbers.
     def __Thee_axis_alignement__(self, dX, dY, dZ):
         ...
