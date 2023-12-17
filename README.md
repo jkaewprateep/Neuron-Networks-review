@@ -117,7 +117,8 @@ flip = {
 - 🐐💬 Another tip for image identification is image scales, linear scales, or images with channel concatenation.
 - 🐑💬 Linear modulo image for medical investigation, contrast adjustment.
 - 🧸💬 We do not compare the image's intensity amplitudes but the pattern or we can transform them into the frequency domain using a short-time furrier transform. Histogram equalization.
-- 🐑💬 It is a matrixes linear scales method. Thresholding and simple segmentation by response range of image input representing, transform image from its scales to another scales by conditions or domain variance.  
+- 🐑💬 It is a matrixes linear scales method. Thresholding and simple segmentation by response range of image input representing, transform image from its scales to another scales by conditions or domain variance.
+- 🦭💬 I revealed to you some of the mathematics discovered images in the computer we are using most of them are arrays of linear scales and when differentiated the linear variables value that is not changing over time or domain will be removed resulting in something moving on the screen. We can have edge detection but saved of the calculation process we consider moving objects as our eyes and senses.
 
 ##### Alpha beta ranges array for image pixel contrast #####
 🐑💬 In linear scales tangent line indicates how much of the target values different can be added or subtracted to maintain the meaning thresholds Y = mx + C.
