@@ -10,6 +10,9 @@ Review of neuron networks class material from IBM data science
 - Supervised training, sample datasets, and labels we can do by configuration file or folder name, and the folder name is managed easily.
 - 👧💬 In TensorFlow ImageDataSet Generator support configuration file and folder name, simply generate indexes of objects and labels and you can specific number of record or random its output continue until the end there is a dataset class object inheritance.
 
+##### Custom dataset #####
+👧💬 The same as in Python - TensorFlow / Tensorflow-lite, PyTorch - Tensorflow / Tensorflow-lite
+
 ```
 class CustomDataset(Dataset):
     """custom dataset."""
