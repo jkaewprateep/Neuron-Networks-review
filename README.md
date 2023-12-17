@@ -547,6 +547,16 @@ print( result )
 ```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
+🦭💬 Regression problem is a solution that can find answers by substitution method within a finite set of input and output. 
+
+### Regression problem ###
+🐐💬 We call them dependent variables and co-variants, possibly finding the relationship between input to output within specific scopes of interest. ( 🐑💬 finite because none finite we cannot find values )   
+```
+concrete_data = pd.read_csv('https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0101EN/labs/data/concrete_data.csv')
+concrete_data.head()
+```
+
+
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
