@@ -7,8 +7,10 @@ Review of neuron networks class material from IBM data science
 - Initial dataset from simple images using IO, PIL, matplotlib and pandas.
 ##### 2.1_data_loader_PyTorch.ipynb ##### 
 - Prepare the dataset by creating folders for each type of target categorized for AI-supervised learning with sample sizes and ratios.
+- Supervised training, sample datasets, and labels we can do by configuration file or folder name, and the folder name is managed easily.
+- 👧💬 In TensorFlow ImageDataSet Generator support configuration file and folder name, simply generate indexes of objects and labels and you can specific number of record or random its output continue until the end there is a dataset class object inheritance.  
 ##### 2.1.2_Images_with_python_library_CV.ipynb ##### 
-- Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colurs, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.  
+- Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colour, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.  
 ##### 2.2.1_basic_image_manipulation_PIL.ipynb ##### 
 - Introduce Python array management library Numpy, copy image array for new identity of same value for parallel images processing, object Id value and references, working with images as an array, image array properties, using Numpy array function to working with image sample flip and ImageOps from PIL, image array cropping using Numpy and Python array fundamental and value update, PIL image draw with fill colour function, * image font from PIL ImageFont, image overlay with cropped image.
 
