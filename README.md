@@ -36,6 +36,8 @@ class CustomDataset(Dataset):
 - 🐑💬 In printing we need to convert RGBA to RGBY because of information in Y channel, converted back to RGBA is not the same think about Y channel is arrays of information.
 - 🦭💬 Someone experiments on RGBY images the same as PDF and information beware of misused he passed but teacher pattern about the image standard is RGB or RGBA.
 [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Imges-centre-detection)
+- 👧💬 🎈 DataLoader is custom data presenter and you can write custom function inside as in the picture.
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#DataLoader)
 
 ##### Images and Camera library using CV2 #####
 ```
@@ -464,4 +466,10 @@ print( max( accuracy_list ) )
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_dataset.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_dataset.jpg">
+</picture>
+
+#### DataLoader ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_loader.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_loader.jpg">
 </picture>
