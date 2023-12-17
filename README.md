@@ -35,7 +35,7 @@ class CustomDataset(Dataset):
 - Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colour, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.
 - 🐑💬 In printing we need to convert RGBA to RGBY because of information in Y channel, converted back to RGBA is not the same think about Y channel is arrays of information.
 - 🦭💬 Someone experiments on RGBY images the same as PDF and information beware of misused he passed but teacher pattern about the image standard is RGB or RGBA.
-[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#ops-codes)
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Imges-centre-detection)
 
 ##### Images and Camera library using CV2 #####
 ```
@@ -85,7 +85,7 @@ def update( frame ):
 
 ##### PIL ImageOps rotation for image.transpose() function #####
 🧸💬 It is Enumurator number mapping of functions and you can find some usages such as cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV that depends on the mode number they are setting.
-[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Imges-centre-detection)
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#ops-codes)
 
 ```
 flip = {
