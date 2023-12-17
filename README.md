@@ -406,7 +406,7 @@ print( max( accuracy_list ) )
 #### Basics Nuerons Networks methodology ####
 * DL0101EN-1-1-Forward-Propgation-py-v1.0.ipynb
 
-### Neurons Networks recaps ###
+#### Neurons Networks recaps ####
 - 🐑💬 A single-layer perception is simply a response as reflection, observing a metal plate that shrinks or expands when heats distribution but not a knee knot hammer.
 - 👧💬 🎈 Radius Basics is a single complex network that seems like redundancy work such as electrical switches or water tap control.
 - 🧸💬 Multi-layer perception and recurrent networks are famous networks because many experiments published and they can be explained by non-complex features. There are many types and various of the number of layers and nodes when recurrent networks have multiple logical gates to select.
@@ -420,7 +420,7 @@ print( max( accuracy_list ) )
 </picture>
 <br>Ref[2]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
 
-### Linear behavior of neurons networks node ###
+#### Linear behavior of neurons networks node ####
 🐑💬 Nueron networks are supposed to be complex and vary by multiple variables but the calculation will be too difficult and we cannot prove of its results behavior. For larger networks, we simulate each node's present value of node bias and weight Y = mx + C. This method allowed us to calculate the entropy network value at one edge of the network, from action to network until reaching one edge of the network presents a label or target function as a result. You can initial value of the weight and bias or use pre-trained values that are built with the commercial logic board and electronics path. Arduino and many logic boards make training easier and they build in pre-trained networks if you select the correct path and method.  
 ```
 import numpy as np # import Numpy library to generate 
@@ -548,9 +548,9 @@ print( result )
 ```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
-🦭💬 Regression problem is a solution that can find answers by substitution method within a finite set of input and output. 
+- 🦭💬 Regression problem is a solution that can find answers by substitution method within a finite set of input and output. 
 
-### Regression problem ###
+#### Regression problem ####
 🐐💬 We call them dependent variables and co-variants, possibly finding the relationship between input to output within specific scopes of interest. ( 🐑💬 finite because none finite we cannot find values )   
 
 🐐💬 Using Panda library to download s CSV file into a data frame.
@@ -599,7 +599,7 @@ from keras.datasets import mnist
 ```
 
 ### Evaluation of the model ###
-🦭💬 Evaluation of the model to examine network prediction scores by input and target output results in accuracy scores and error. High accuracy scores do not mean being the best networks but high accuracy with steady variances or sometimes they are testing the networks on unseen datasets with the same variances and provide the same or similar result in accuracy scores. The Evaluation method is faster and does not require multiple times of execution because it selects appropriate ranks for the testing dataset. 
+🦭💬 Evaluation of the model to examine network prediction scores by input and target output results in accuracy scores and error. High accuracy scores do not mean being the best networks but high accuracy with steady variances or sometimes they are testing the networks on unseen datasets with the same variances and provide the same or similar results in accuracy scores. The Evaluation method is faster and does not require multiple times of execution because it selects appropriate ranks for the testing dataset. 
 ```
 # build the model
 model = classification_model()
@@ -609,6 +609,14 @@ model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, verbose
 
 # evaluate the model
 scores = model.evaluate(X_test, y_test, verbose=0)
+```
+
+#### Load pre-trained model ####
+🦭💬 From saved or a pre-defined network shape you can load target weights or weights and a configuration file into target sequential. 
+```
+from keras.models import load_model
+
+pretrained_model = load_model('classification_model.h5')
 ```
 
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
