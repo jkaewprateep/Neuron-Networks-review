@@ -262,6 +262,7 @@ ret, outs = cv2.threshold(src = image, thresh = 0, maxval = 255, type = cv2.THRE
 ##### Pytorch dataset object class #####
 🐨🎁🎵🎶 Sample of Tensorflow and Pytorch DataSet.
 [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Tensorflow-and-Pytorch-Custom-DataSet)
+
 ```
 class Dataset(Dataset):
 
@@ -427,7 +428,7 @@ import numpy as np # import Numpy library to generate
 weights = np.around(np.random.uniform(size=6), decimals=2) # initialize the weights
 biases = np.around(np.random.uniform(size=3), decimals=2) # initialize the biases
 ```
-🐑💬 Linear behavior of neuron network layer.
+🐑💬 Linear behavior of neuron network layer. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Weight-response-calculation)
 ```
 z_11 = x_1 * weights[0] + x_2 * weights[1] + biases[0]
 z_11 = round( z_11, 3 )
@@ -588,7 +589,7 @@ model.fit(predictors_norm, target, validation_split=0.3, epochs=100, verbose=2)
 
 ### Load standard dataset ###
 🦭💬 The MNIST handwriting database tfds.image_classification.MNIST is a standard database that can be used to evaluate the performance of the networks.
-Ref[3]: https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image_classification/mnist.py
+Ref[4]: https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image_classification/mnist.py
 ```
 # import the data
 from keras.datasets import mnist
@@ -684,4 +685,10 @@ scores = model.evaluate(X_test, y_test, verbose=0)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cylindical_problem.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cylindical_problem.jpg">
+</picture>
+
+#### Weight response calculation ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/weight_response_cal.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/weight_response_cal.jpg">
 </picture>
