@@ -459,6 +459,58 @@ def node_activation(weighted_sum):
 node_output  = node_activation(compute_weighted_sum(inputs, node_weights, node_bias))
 print('The output of the first node in the hidden layer is {}'.format(np.around(node_output[0], decimals=4)))
 ```
+🦭💬 Create simple networks from custom DenseLayer in Tensorflow, identifying nodes and initial values.
+```
+### create a network
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Class / Functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+class MyDenseLayer(tf.keras.layers.Layer):
+    def __init__(self, num_outputs):
+        super(MyDenseLayer, self).__init__()
+        self.num_outputs = num_outputs
+
+    def build(self, input_shape):
+        self.initializer = tf.keras.initializers.Identity()
+        self.kernel = self.add_weight(shape=[int(input_shape[-1]),
+        self.num_outputs],
+        initializer = self.initializer,
+        trainable=True)
+        self.kernel = tf.cast( self.kernel, dtype=tf.float32 )
+        self.weight = self.add_weight(shape=[int(input_shape[-1]),
+        self.num_outputs],
+        initializer = tf.zeros_initializer(),
+        trainable=True)
+
+    def call(self, inputs):
+        result = tf.matmul( tf.cast( inputs, dtype=tf.float32 ), self.kernel )
+        result = tf.math.add( result, self.weight )
+        result = tf.cast( result, dtype=tf.int32 )
+
+        return result
+
+word_char_length = 12
+layer = MyDenseLayer(word_char_length)
+input_value = tf.constant(
+[[ 5, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 3, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 8, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 5, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 15, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 0, 0, 18, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+ [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]], shape=(12, 12), dtype=tf.float32)
+
+result = layer( input_value )
+
+print( result )
+```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
