@@ -412,7 +412,7 @@ print( max( accuracy_list ) )
 - 🐑💬 This is a known type of network that is AND OR networks logic or XOR logic we are using in electrical instruments such as current observing or pass-through logic for input from digits panels.
 - 🧸💬 Multi-perception networks can simulate logical gates but they require training or similar networks for the same function this is one weakness they are improved by LSTM recurrent networks that can learn with logical gate pre-build.
 - 🐐💬 Hopped fields or stars networks had working nodes as ring networks and in one of the node failures they copied the same function for the most appropriate selected number of nodes target.
-- 🦭💬 Bolzedmann machines, select one side of network it can calculate of multiple work in the same time. 
+- 🦭💬 Bolzedmann machines, select one side of the network it can calculate of multiple works in the same time. The equivalent of microscopics create work output in another side.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
