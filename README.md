@@ -434,6 +434,10 @@ z_11 = round( z_11, 3 )
 
 print('The weighted sum of the inputs at the first node in the hidden layer is {}'.format(z_11))
 ```
+🐑💬 Activation function, linear exponential is fast growth with the value change from this discovery make it to be true, some discovery channel.
+```
+a_11 = 1.0 / (1.0 + np.exp(-z_11))
+```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
