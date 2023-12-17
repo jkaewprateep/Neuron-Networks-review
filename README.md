@@ -584,7 +584,7 @@ model.fit(predictors_norm, target, validation_split=0.3, epochs=100, verbose=2)
 ```
 
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
-🦭💬 In a classification problem we categorize the target by output nodes value mapping to label or label dimension and value. We can determine of target label by cross-entropy function sample SoftMax, CategoricalCrossentropy, BinaryCrossentropy, CosineSimilarity, etc.   
+🦭💬 In a classification problem we categorize the target by output nodes value mapping to label, logits shape or label dimension and value. We can determine of target label by cross-entropy function sample SoftMax, CategoricalCrossentropy, BinaryCrossentropy, CosineSimilarity, etc.   
 
 ### Load standard dataset ###
 🦭💬 The MNIST handwriting database tfds.image_classification.MNIST is a standard database that can be used to evaluate the performance of the networks.
