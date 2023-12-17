@@ -559,6 +559,29 @@ import pandas as pd
 concrete_data = pd.read_csv('https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0101EN/labs/data/concrete_data.csv')
 concrete_data.head()
 ```
+🐐💬 Using Keras to create sequential model networks with simple Dense layers, and initial of its value.
+```
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
+
+# define regression model
+def regression_model():
+    # create model
+    model = Sequential()
+    model.add(Dense(50, activation='relu', input_shape=(n_cols,)))
+    model.add(Dense(50, activation='relu'))
+    model.add(Dense(1))
+    
+    # compile model
+    model.compile(optimizer='adam', loss='mean_squared_error')
+    return model
+```
+🐐💬 Training model with normalized value and target strength, the input value is high variances or a small number of samples we can use normalized value to help with learning time of the networks. By expectation high variances should provide the best results because it is different but requires complex relationship too.   
+```
+# fit the model
+model.fit(predictors_norm, target, validation_split=0.3, epochs=100, verbose=2)
+```
 
 
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
