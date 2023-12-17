@@ -86,6 +86,8 @@ def update( frame ):
 - Introduce Python array management library Numpy, copy image array for new identity of same value for parallel images processing, object Id value and references, working with images as an array, image array properties, using Numpy array function to working with image sample flip and ImageOps from PIL, image array cropping using Numpy and Python array fundamental and value update, PIL image draw with fill colour function, * image font from PIL ImageFont, image overlay with cropped image.
 
 ##### PIL ImageOps rotation for image.transpose() function #####
+🧸💬 It is Enumurator number mapping of functions and you can find some usages such as cv2.THRESH_OTSU + cv2.THRESH_BINARY_INV that depends on the mode number they are setting.
+
 ```
 flip = {
          "FLIP_LEFT_RIGHT": Image.FLIP_LEFT_RIGHT,
@@ -108,6 +110,7 @@ flip = {
          "ROTATE_180":cv2.ROTATE_180
        }
 ```
+
 
 ##### 2.3.2_Histogram_and_Intensity_Transformations.ipynb ##### 
 - Numpy arrays management library, matplotlib plot, subplot, histogram of image and arrays, bar chart, greyscale, histogram sequence calculation from cv2.calcHist 🐑💬 Image identification by intensity distribution you need to select correct channel or ranges, image input scales from [0, 1] to [0, 255] or *[-255, 255], CV rectangular draw, image brightness and fundamental. 🐑💬 Linear modulo image for medical investigation, contrast adjustment 🧸💬 We do not compare the image's intensity amplitudes but the pattern or we can transform them into the frequency domain using a short-time furrier transform. Histogram equalization 🐑💬 It is a matrixes linear scales method. Thresholding and simple segmentation by response range of image input representing, transform image from its scales to another scales by conditions or domain variance.  
@@ -422,7 +425,15 @@ print( max( accuracy_list ) )
 |     2| IBM Data Science's Jupiter NoteBook | IBM Data Science course on Coursera |
 
 ## Applications ##
+
+#### Games simulation ####
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection_in_games_environment.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection_in_games_environment.jpg">
+</picture>
+
+#### Ops codes ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/error_ops_codes.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/error_ops_codes.jpg">
 </picture>
