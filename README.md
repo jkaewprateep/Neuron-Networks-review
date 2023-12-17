@@ -259,7 +259,7 @@ ret, outs = cv2.threshold(src = image, thresh = 0, maxval = 255, type = cv2.THRE
 
 ##### Pytorch dataset object class #####
 🐨🎁🎵🎶 Sample of Tensorflow and Pytorch DataSet.
-[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Custom-DataSet)
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Tensorflow-and-Pytorch-Custom-DataSet)
 ```
 class Dataset(Dataset):
 
@@ -460,7 +460,7 @@ print( max( accuracy_list ) )
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection.jpg">
 </picture>
 
-#### Custom DataSet ####
+#### Tensorflow and Pytorch Custom DataSet ####
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_dataset.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_dataset.jpg">
