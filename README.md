@@ -427,6 +427,13 @@ import numpy as np # import Numpy library to generate
 weights = np.around(np.random.uniform(size=6), decimals=2) # initialize the weights
 biases = np.around(np.random.uniform(size=3), decimals=2) # initialize the biases
 ```
+🐑💬 Linear behavior of neuron network layer.
+```
+z_11 = x_1 * weights[0] + x_2 * weights[1] + biases[0]
+z_11 = round( z_11, 3 )
+
+print('The weighted sum of the inputs at the first node in the hidden layer is {}'.format(z_11))
+```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
