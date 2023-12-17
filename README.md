@@ -511,6 +511,40 @@ result = layer( input_value )
 
 print( result )
 ```
+🦭💬 Create new networks from custom DenseLayer in Tensorflow, identifying nodes and initial values.
+```
+### create another network
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+: Class / Functions
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+class MyDenseLayer(tf.keras.layers.Layer):
+    def __init__(self, num_outputs):
+        super(MyDenseLayer, self).__init__()
+        self.num_outputs = num_outputs
+
+    def build(self, input_shape):
+        self.kernel = self.add_weight("kernel",
+        shape=[int(input_shape[-1]),
+        self.num_outputs])
+
+    def call(self, inputs):
+        result = tf.matmul(inputs, self.kernel)		# , shape=(10, 10), dtype=float32)
+        return result
+
+start = 3
+limit = 33
+delta = 3
+sample = tf.range(start, limit, delta)
+sample = tf.cast( sample, dtype=tf.float32 )
+sample = tf.reshape( sample, shape=( 10, 1 ) )
+layer = MyDenseLayer(10)
+result = layer(sample)
+print( result )
+
+### Thank you for laboratory ###
+```
 
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
