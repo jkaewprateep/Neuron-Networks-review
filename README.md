@@ -130,6 +130,9 @@ new_image = cv2.convertScaleAbs(goldhill, alpha=alpha, beta=beta)
 - 🐑💬 cv2.THRESH_BINARY is the original idea to reduce the number of different inputs for the compression method and restore by intensity scales on the client.
 - 🧸💬 cv2.THRESH_TRUNC is the enchant matrixes of no-meaning pixels.
 - 🐐💬 cv2.THRESH_OTSU is to solve the problem about unfairs selected representing matrix.
+- 👧💬 🎈 cv2.THRESH_BINARY is a direct conversion when presenting pixels matrix in specific ranges of ratios present in one value and reverse as a binary image.
+- 👧💬 🎈 cv2.THRESH_TRUNC find a presenting value of pixels matrix with neighbors and re-scales.
+- 👧💬 🎈 cv2.THRESH_OTSU combined both methods to solve the unfairs selection presenter matrix.  
 ```
 cv2.THRESH_BINARY
 cv2.THRESH_TRUNC
