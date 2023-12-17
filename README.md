@@ -406,6 +406,13 @@ print( max( accuracy_list ) )
 * DL0101EN-1-1-Forward-Propgation-py-v1.0.ipynb
 
 ### Neurons Networks recaps ###
+- 🐑💬 A single-layer perception is simply a response as reflection, observing a metal plate that shrinks or expands when heats distribution but not a knee knot hammer.
+- 👧💬 🎈 Radius Basics is a single complex network that seems like redundancy work such as electrical switches or water tap control.
+- 🧸💬 Multi-layer perception and recurrent networks are famous networks because many experiments published and they can be explained by non-complex features. There are many types and various of the number of layers and nodes when recurrent networks have multiple logical gates to select.
+- 🐑💬 This is a known type of network that is AND OR networks logic or XOR logic we are using in electrical instruments such as current observing or pass-through logic for input from digits panels.
+- 🧸💬 Multi-perception networks can simulate logical gates but they require training or similar networks for the same function this is one weakness they are improved by LSTM recurrent networks that can learn with logical gate pre-build.
+- 🐐💬 Hopped fields or stars networks had working nodes as ring networks and in one of the node failures they copied the same function for the most appropriate selected number of nodes target.
+- 🦭💬 Bolzedmann machines, select one side of network it can calculate of multiple work in the same time. 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
