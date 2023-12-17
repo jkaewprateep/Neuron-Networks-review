@@ -584,7 +584,7 @@ model.fit(predictors_norm, target, validation_split=0.3, epochs=100, verbose=2)
 ```
 
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
-🦭💬 In a classification problem we categorize the target by output nodes value mapping to label, logits shape or label dimension and value. We can determine of target label by cross-entropy function sample SoftMax, CategoricalCrossentropy, BinaryCrossentropy, CosineSimilarity, etc.   
+🦭💬 In a classification problem we categorize the target by output nodes value mapping to label, logits shape, or label dimension and value. We can determine of target label by cross-entropy function sample SoftMax, CategoricalCrossentropy, BinaryCrossentropy, CosineSimilarity, etc.   
 
 ### Load standard dataset ###
 🦭💬 The MNIST handwriting database tfds.image_classification.MNIST is a standard database that can be used to evaluate the performance of the networks.
@@ -595,6 +595,19 @@ from keras.datasets import mnist
 
 # read the data
 (X_train, y_train), (X_test, y_test) = mnist.load_data()
+```
+
+### Evaluation of the model ###
+🦭💬 Evaluation of the model to examine network prediction scores by input and target output results in accuracy scores and error. High accuracy scores do not mean being the best networks but high accuracy with steady variances or sometimes they are testing the networks on unseen datasets with the same variances and provide the same or similar result in accuracy scoes. The Evaluation method is faster and does not require multiple times of execution because it selects appropriate ranks for the testing dataset. 
+```
+# build the model
+model = classification_model()
+
+# fit the model
+model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=10, verbose=2)
+
+# evaluate the model
+scores = model.evaluate(X_test, y_test, verbose=0)
 ```
 
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
