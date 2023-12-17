@@ -8,7 +8,22 @@ Review of neuron networks class material from IBM data science
 ##### 2.1_data_loader_PyTorch.ipynb ##### 
 - Prepare the dataset by creating folders for each type of target categorized for AI-supervised learning with sample sizes and ratios.
 - Supervised training, sample datasets, and labels we can do by configuration file or folder name, and the folder name is managed easily.
-- 👧💬 In TensorFlow ImageDataSet Generator support configuration file and folder name, simply generate indexes of objects and labels and you can specific number of record or random its output continue until the end there is a dataset class object inheritance.  
+- 👧💬 In TensorFlow ImageDataSet Generator support configuration file and folder name, simply generate indexes of objects and labels and you can specific number of record or random its output continue until the end there is a dataset class object inheritance.
+
+```
+class CustomDataset(Dataset):
+    """custom dataset."""
+
+    def __init__(self, index_filename):
+        ...
+
+    def __len__(self):
+        ...
+
+    def __getitem__(self, idx):
+        ...
+```
+
 ##### 2.1.2_Images_with_python_library_CV.ipynb ##### 
 - Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colour, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.  
 ##### 2.2.1_basic_image_manipulation_PIL.ipynb ##### 
