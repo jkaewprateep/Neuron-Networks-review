@@ -404,6 +404,14 @@ print( max( accuracy_list ) )
 
 #### Basics Nuerons Networks methodology ####
 * DL0101EN-1-1-Forward-Propgation-py-v1.0.ipynb
+
+### Neurons Networks recaps ###
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
+</picture>
+<br>Ref[1]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
+
 * DL0101EN-3-1-Regression-with-Keras-py-v1.0.ipynb
 * DL0101EN-3-2-Classification-with-Keras-py-v1.0.ipynb
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
@@ -441,6 +449,7 @@ print( max( accuracy_list ) )
 |-----:|---------------|---------------|
 |     1| https://en.wikipedia.org/wiki/Kernel_(image_processing) | Linear filtering image matrixes and useful method |
 |     2| IBM Data Science's Jupiter NoteBook | IBM Data Science course on Coursera |
+|     3| https://www.xenonstack.com/blog/artificial-neural-network-applications | Famous types of Nuerons Networks |
 
 ## Applications ##
 
