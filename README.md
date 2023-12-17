@@ -551,7 +551,11 @@ print( result )
 
 ### Regression problem ###
 🐐💬 We call them dependent variables and co-variants, possibly finding the relationship between input to output within specific scopes of interest. ( 🐑💬 finite because none finite we cannot find values )   
+
+🐐💬 Using Panda library to download s CSV file into a data frame.
 ```
+import pandas as pd
+
 concrete_data = pd.read_csv('https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0101EN/labs/data/concrete_data.csv')
 concrete_data.head()
 ```
