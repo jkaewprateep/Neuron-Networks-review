@@ -35,7 +35,49 @@ class CustomDataset(Dataset):
 - Images concatenation, file string attribute manipulation, important image property size, identities, and dimension, image plotting and negative image, image label system conversion using CV2, save and read images using CV2, colour label conversion grey scales, colour scales, negative colour, RGBA, RGB, *RGBY system. Image plot and sub-images plot, indexing and image cropping, image array values copy for parallel process images system, image colour channels and CV2 image colour system conversion sample BGR_to_RGB.
 - 🐑💬 In printing we need to convert RGBA to RGBY because of information in Y channel, converted back to RGBA is not the same think about Y channel is arrays of information.
 - 🦭💬 Someone experiments on RGBY images the same as PDF and information beware of misused he passed but teacher pattern about the image standard is RGB or RGBA.
-  
+
+##### Images and Camera library using CV2 #####
+```
+"""""""""""""""""""""""""""""""""""""""""""""
+: Class / Definition
+"""""""""""""""""""""""""""""""""""""""""""""
+def update( frame ):
+
+    ret, frame = vid.read()
+    
+    if ( ret ):
+        
+        frame = cv2.cvtColor( frame, cv2.COLOR_BGR2RGB )  
+        
+        o_image = tf.image.flip_up_down( frame )
+        o_image = tf.keras.utils.array_to_img( o_image )
+        o_image = tf.image.resize( o_image, [64, 64] )
+        o_image = tf.cast( o_image, dtype=tf.int32 )
+        
+        image = filters( o_image )
+        
+        fig.axes[1].clear()
+        plt.axis( 'off' )
+        
+        coords = find_image_countour( image )
+        
+        fig.axes[1].imshow( image )
+        fig.axes[1].axis( 'off' )
+        fig.axes[1].grid( False )
+        fig.axes[1].plot( Y, X )
+        fig.axes[1].fill( Y, X, "c")
+        fig.axes[1].set_xlim( 0, 64 )
+        fig.axes[1].set_ylim( 0, 64 )
+
+        img_buf = io.BytesIO()
+        plt.savefig( img_buf, format = "png" )
+        
+        image = Image.open( img_buf )
+        im.set_array( image )
+
+    return im
+```
+
 ##### 2.2.1_basic_image_manipulation_PIL.ipynb ##### 
 - Introduce Python array management library Numpy, copy image array for new identity of same value for parallel images processing, object Id value and references, working with images as an array, image array properties, using Numpy array function to working with image sample flip and ImageOps from PIL, image array cropping using Numpy and Python array fundamental and value update, PIL image draw with fill colour function, * image font from PIL ImageFont, image overlay with cropped image.
 
