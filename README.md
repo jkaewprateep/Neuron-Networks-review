@@ -417,7 +417,7 @@ print( max( accuracy_list ) )
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
 </picture>
-<br>Ref[1]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
+<br>Ref[2]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
 
 ### Linear behavior of neurons networks node ###
 🐑💬 Nueron networks are supposed to be complex and vary by multiple variables but the calculation will be too difficult and we cannot prove of its results behavior. For larger networks, we simulate each node's present value of node bias and weight Y = mx + C. This method allowed us to calculate the entropy network value at one edge of the network, from action to network until reaching one edge of the network presents a label or target function as a result. You can initial value of the weight and bias or use pre-trained values that are built with the commercial logic board and electronics path. Arduino and many logic boards make training easier and they build in pre-trained networks if you select the correct path and method.  
