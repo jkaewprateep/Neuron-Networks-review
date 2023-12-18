@@ -696,6 +696,63 @@ negative_images = np.array(negative_images)
 
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
 - 🐐💬 Data Image Generator can perform image data manipulation and extra with the custom function they allowed tf.keras.preprocessing.image.ImageDataGenerator#preprocessing_function. In this method we can perform negative images, hue images with target functions, or differentiation of its input images by the pre-processing method. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-pre-process-and-compressed-commands)
+
+#### Create ImageDataGenerator class ####
+🐐💬 The instance of ImageGenerator class is more than indexes, it creates rewindable indexes with tensor shape, we can work with tensors shape as a simple tensors shape but they remain the property of item identification.  
+```
+# instantiate your image data generator
+data_generator = ImageDataGenerator()
+
+image_generator = data_generator.flow_from_directory(
+    dataset_dir,
+    batch_size=4,
+    class_mode='categorical',
+    seed=24
+    )
+```
+
+#### Samples from created ImageDataGenerator ####
+```
+## You can use this cell to type your code to answer the above question
+image_generator = data_generator.flow_from_directory(
+    dataset_dir,
+    batch_size=4,
+    class_mode='categorical',
+    seed=24
+    )
+
+first_batch_images = image_generator.next()[0] # first batch
+second_batch_images = image_generator.next()[0] # second batch
+third_batch_images = image_generator.next()[0] # second batch
+forth_batch_images = image_generator.next()[0] # second batch
+fifth_batch_images = image_generator.next()[0] # second batch
+
+# 🧸💬 Image calsses from image data generator.
+print( image_generator.class_indices )
+print( image_generator.num_classes )
+print( image_generator.classes[0:24]  )
+
+fig, axs = plt.subplots(nrows=2, ncols=2, figsize=(20, 10)) # define your figure and axes
+
+ind = 0
+for ax1 in axs:
+    for ax2 in ax1: 
+        # image_data = third_batch_images[ind].astype(np.uint8) 
+        image_data = fifth_batch_images[ind]
+        ax2.imshow(image_data)
+        ind += 1
+
+fig.suptitle('Third Batch of Concrete Images' + " " + str(  "") ) 
+plt.show()
+```
+
+#### Results ####
+```
+Found 40000 images belonging to 2 classes.
+{'Negative': 0, 'Positive': 1}
+2
+[0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0]
+```
  
 * DL0321EN-3-1-Pretrained-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
@@ -792,4 +849,10 @@ negative_images = np.array(negative_images)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/pre-process_compressed_commands.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/pre-process_compressed_commands.jpg">
+</picture>
+
+#### Multi-process and TF-agents ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/multi-process-TF-agents.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/multi-process-TF-agents.jpg">
 </picture>
