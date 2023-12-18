@@ -664,7 +664,7 @@ def convolutional_model():
 ```
 
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
-- 🧸💬 For a simple method creating arrays of data and its label them to perform a calculation with a target function in a sequential model is possible by using Numpy library, Python library, Panda dataframe, index files, and database. You can refer to the target dataset, target file location, versions, functions and target data sources allowed to transfer of the dataset object with the same method to perform the same output. Same as some applications if we only need the strict policy to fully works on the target application but do not allowed to copy most of IT admin using security methods but file size and working policy are also applicable do not too look down this step.    
+- 🧸💬 For a simple method creating arrays of data and its label them to perform a calculation with a target function in a sequential model is possible by using Numpy library, Python library, Panda dataframe, index files, and database. You can refer to the target dataset, target file location, versions, functions and target data sources allowed to transfer of the dataset object with the same method to perform the same output. Same as some applications if we only need a strict policy to fully works on the target application but do not allowed to copy most of IT admin using security methods but file size and working policy are also applicable do not too look down this step. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Input-identity-identification-method)    
 
 #### Create arrays input and label from images target ####
 ```
@@ -778,4 +778,10 @@ negative_images = np.array(negative_images)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/convolution_layer.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/convolution_layer.jpg">
+</picture>
+
+#### Input identity identification method ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Input_identity_identification.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Input_identity_identification.jpg">
 </picture>
