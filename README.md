@@ -756,6 +756,27 @@ Found 40000 images belonging to 2 classes.
 ```
  
 * DL0321EN-3-1-Pretrained-Models-py-v1.0.ipynb
+- 🐑💬 Pre-trained model is also the training model with a test dataset prepared to test with the actual dataset we need to work with the sequential model and work inputs prepared for the variances. Pre-trained sequential models are available and commonly used with no extra costs because professionals in this field build for us.
+
+#### Create a sequential model from pre-trained model ####
+🐑💬 Do not forget to add Sequential and Dense layers when output prints the same as class debugging inheritance and target output usage.
+```
+import keras
+from keras.models import Sequential
+from keras.layers import Dense
+from keras.applications import ResNet50
+from keras.applications.resnet50 import preprocess_input
+
+model = Sequential()
+model.add(ResNet50(
+    include_top=False,
+    pooling='avg',
+    weights='imagenet',
+    ))
+```
+
+
+
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
 
