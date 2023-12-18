@@ -642,7 +642,7 @@ def convolutional_model():
 ```
 
 #### Sample of multiple convolution layers ####
-👧💬 🎈 Convolution layers can be pre-defined and respond to target input with values matrixes that are stored in the class object, multiple layers of convolution response in different input significant properties such as shape and colours ( input values ) by multiple-times running with properly matched target object shape and colours remain or significant. Larger sizes of matrix respond to the target size of an object and also the direction of scanning and stored matrix values response to target numbers in ranges because it is matrix multiplication see edge detection for more information. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Ridge-or-edge-detection,-ImageFilter.EDGE_ENHANCE-and-ImageFilter.FIND_EDGES)
+👧💬 🎈 Convolution layers can be pre-defined and respond to target input with values matrixes that are stored in the class object, multiple layers of convolution response in different input significant properties such as shape and colours ( input values ) by multiple-times running with properly matched target object shape and colours remain or significant. Larger sizes of matrix respond to the target size of an object and also the direction of scanning and stored matrix values response to target numbers in ranges because it is matrix multiplication see edge detection for more information. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#common-kernel-for-image-sharpening-imagefiltersharpen)
 ```
 def convolutional_model():
     
