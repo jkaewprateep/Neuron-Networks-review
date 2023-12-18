@@ -806,6 +806,60 @@ model.save('classifier_resnet_model.h5')
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
 - 🦭💬 Create a sequential model from a pre-trained model, one method to provide them the data sources without being exposed or trapped by network package identification is by the dataset but some bad man try to use it as a hacker step. Inside the dataset can contain multiple functions to manipulate and sort data when they are stored as sequences of binary numbers or encrypted messages. 🦭💬 We noticed with someone running the dataset or later running. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#data-conditions)
 
+#### Create a sequential model from pre-trained model ####
+```
+model = Sequential()
+model.add(VGG16(
+    include_top=False,
+    pooling='avg',
+    weights='imagenet',
+    ))
+model.add(Dense(num_classes, activation='softmax'))
+
+model.summary()
+
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+
+model.save('classifier_resnet_model.h5')
+```
+
+#### Model Summary ####
+```
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ vgg16 (Functional)          (None, 512)               14714688  
+                                                                 
+ dense (Dense)               (None, 2)                 1026      
+                                                                 
+=================================================================
+Total params: 14,715,714
+Trainable params: 14,715,714
+Non-trainable params: 0
+_________________________________________________________________
+```
+
+#### Model Evaluation ####
+```
+scores = model.evaluate(validation_generator)
+```
+
+#### Results ####
+```
+[0.7199065089225769, 0.49994736909866333]
+```
+
+#### Model Prediction ####
+```
+predict = model.predict_generator(validation_generator, steps = 100)
+```
+
+#### Results ####
+```
+[[0.38565585 0.6143441 ]]
+```
+
 #### Multiple of adaptive neurons networks ####
 * ML0120EN-1.1-Review-TensorFlow-Hello-World.ipynb
 * ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb
