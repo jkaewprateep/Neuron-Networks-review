@@ -943,6 +943,9 @@ def logistic_regression(x):
 ```
 
 * ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb
+- 👧💬 🎈 Deep learning is an artificial network ability to learn and adaptative to conditions and rules that are more complex than single or few layers. There is something called the degree of transformation because it is difficult to define deep-learning networks when the number of layers does not specify the function costs. The differentiate and transform function identified value and identity pattern and similarity equation can define how much of two or more equation similarity sample Eigant value and Eigant vector for similarity comparision.    
+
+
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
