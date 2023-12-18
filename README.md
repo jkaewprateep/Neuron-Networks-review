@@ -972,7 +972,30 @@ cross_entropy(y_train, model(x_train)).numpy()
 
 #### Activation functions ####
 
+```
+# ReLU activation function
+def h_conv1(x): return(tf.nn.relu(convolve1(x)))
+
+# SoftMax activation function
+def y_CNN(x): return tf.nn.softmax(fc(x))
+```
+
 #### Network layers ####
+
+```
+# Fully connected layer
+def fcl(x): return tf.matmul(layer2_matrix(x), W_fc1) + b_fc1
+
+# convolution layer
+def convolve1(x):
+    return(
+        tf.nn.conv2d(x, W_conv1, strides=[1, 1, 1, 1], padding='SAME') + b_conv1)
+
+# convolution layer
+def convolve2(x): 
+    return( 
+    tf.nn.conv2d(conv1(x), W_conv2, strides=[1, 1, 1, 1], padding='SAME') + b_conv2)
+```
 
 #### Interpolate function from convolution2D function ####
 🦭💬 Some materials are mistyped by accident just add the convolution2D with target output logits to create a correct function with function result expecting.
