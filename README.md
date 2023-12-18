@@ -862,6 +862,8 @@ predict = model.predict_generator(validation_generator, steps = 100)
 
 #### Multiple of adaptive neurons networks ####
 * ML0120EN-1.1-Review-TensorFlow-Hello-World.ipynb
+- 🧸💬 Fundamental methods for TensorFlow, create tf.tensors from tf.constant, multiple-dimensions arrays operations, and tf.variable. There are steps of calculation and types of variables, output from multiplication process or process no reverse form can be stored in tf.contant and tf.variablle when the calculation step is in tf.variable form.
+
 * ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb
 * ML0120EN-1.4-Review-LogisticRegressionwithTensorFlow.ipynb
 * ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb
