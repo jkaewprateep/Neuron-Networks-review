@@ -620,6 +620,8 @@ pretrained_model = load_model('classification_model.h5')
 ```
 
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
+- 👧💬 🎈 Convolution layer is matrix manipulation from target pixels and its neighbor resulting in the representation of sample matrix and it is a powerful method in computer visions and instruments. Imagine when you shifted or calculated numbers into a target single value at a time and target matrix area, they also have comparison and interaction in the same way as they are convoluted numbers with matrix transform direction into target images and restoration. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Convolution-layer)     
+
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
 * DL0321EN-3-1-Pretrained-Models-py-v1.0.ipynb
@@ -699,4 +701,10 @@ pretrained_model = load_model('classification_model.h5')
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/weight_response_cal.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/weight_response_cal.jpg">
+</picture>
+
+#### Convolution layer ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/convolution_layer.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/convolution_layer.jpg">
 </picture>
