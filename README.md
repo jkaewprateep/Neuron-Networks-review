@@ -945,6 +945,12 @@ def logistic_regression(x):
 * ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb
 - 👧💬 🎈 Deep learning is an artificial network ability to learn and adaptative to conditions and rules that are more complex than single or few layers. There is something called the degree of transformation because it is difficult to define deep-learning networks when the number of layers does not specify the function costs. The differentiate and transform function identified value and identity pattern and similarity equation can define how much of two or more equation similarity sample Eigant value and Eigant vector for similarity comparision.    
 
+#### Forward function ####
+👧💬 🎈 Fundamental forward function represents linear function behavior, small value changes indicate the summing add of the value until the multiply variable has the same indicates will move to multiply. In some algorithms, they make it fast by starting by multiplying value and then increasing the summing value when indicated when using the loss value estimation function because it can be summing for smaller value decimals and faster reach the nearest point. ( 💃( 👩‍🏫 )💬 Sample momentum loss value estimation function ) 🐑💬 In programming we see W and b are the same type of tf.variable and they are updated by each iteration of the training process assigners are from the loss value estimation function and the optimizer function is recorder.
+```
+def forward(x):
+    return tf.matmul(x,W) + b
+```
 
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
