@@ -639,7 +639,29 @@ def convolutional_model():
     # compile model
     model.compile(optimizer='adam', loss='categorical_crossentropy',  metrics=['accuracy'])
     return model
-``` 
+```
+
+#### Sample of multiple convolution layers ####
+👧💬 🎈 Convolution layers can be pre-defined and respond to target input with values matrixes that are stored in the class object, multiple layers of convolution response in different input significant properties such as shape and colours ( input values ) by multiple-times running with properly matched target object shape and colours remain or significant. Larger sizes of matrix respond to the target size of an object and also the direction of scanning and stored matrix values response to target numbers in ranges because it is matrix multiplication see edge detection for more information. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Ridge-or-edge-detection,-ImageFilter.EDGE_ENHANCE-and-ImageFilter.FIND_EDGES)
+```
+def convolutional_model():
+    
+    # create model
+    model = Sequential()
+    model.add(Conv2D(16, (5, 5), activation='relu', input_shape=(28, 28, 1)))
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    
+    model.add(Conv2D(8, (2, 2), activation='relu'))
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    
+    model.add(Flatten())
+    model.add(Dense(100, activation='relu'))
+    model.add(Dense(num_classes, activation='softmax'))
+    
+    # Compile model
+    model.compile(optimizer='adam', loss='categorical_crossentropy',  metrics=['accuracy'])
+    return model
+```
 
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
