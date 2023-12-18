@@ -793,6 +793,15 @@ fit_history = model.fit_generator(
 )
 ```
 
+#### Save the result from work ####
+```
+## 🧸💬 You can safe model check points, model with parameters and all working solution
+## Please see the reading manual select for correct purpose. Reshaers need to use logs 
+## for backward result identification if not joined the labs.
+
+model.save('classifier_resnet_model.h5')
+```
+
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
 
