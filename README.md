@@ -620,7 +620,26 @@ pretrained_model = load_model('classification_model.h5')
 ```
 
 * DL0101EN-4-1-Convolutional-Neural-Networks-with-Keras-py-v1.0.ipynb
-- 👧💬 🎈 Convolution layer is matrix manipulation from target pixels and its neighbor resulting in the representation of sample matrix and it is a powerful method in computer visions and instruments. Imagine when you shifted or calculated numbers into a target single value at a time and target matrix area, they also have comparison and interaction in the same way as they are convoluted numbers with matrix transform direction into target images and restoration. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Convolution-layer)     
+- 👧💬 🎈 Convolution layer is matrix manipulation from target pixels and its neighbor resulting in the representation of sample matrix and it is a powerful method in computer visions and instruments. Imagine when you shifted or calculated numbers into a target single value at a time and target matrix area, they also have comparison and interaction in the same way as they are convoluted numbers with matrix transform direction into target images and restoration. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Convolution-layer)
+
+#### Sample of creating a sequential model with convolution layer ####
+👧💬 🎈 Convolution layer usage is the same as Dense and layers, you can create a custom Convolution layer from tf.keras.layers.Conv2D class. What do the custom convolution layers can do? They can perform sinusoid functions or concatenated them for the best response target weight matrix. * Multiple residual networks can perform with custom layer as recurrent networks do but are defined and present for understanding.   
+```
+def convolutional_model():
+    
+    # create model
+    model = Sequential()
+    model.add(Conv2D(16, (5, 5), strides=(1, 1), activation='relu', input_shape=(28, 28, 1)))
+    model.add(MaxPooling2D(pool_size=(2, 2), strides=(2, 2)))
+    
+    model.add(Flatten())
+    model.add(Dense(100, activation='relu'))
+    model.add(Dense(num_classes, activation='softmax'))
+    
+    # compile model
+    model.compile(optimizer='adam', loss='categorical_crossentropy',  metrics=['accuracy'])
+    return model
+``` 
 
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
