@@ -883,6 +883,19 @@ def increment_by_one(v):
 ```
 
 * ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb
+- 🐨🎁🎵🎶 Optimization problem critical method linear regression, optimization values from the pre-defined relationship and significant. It does not directly find the relationship but linear regression can do in small variances and using it this way is not quite correct and uses some resources. Forward-backward substitution method, feedback propagation, variance distribution, and there are many learning methods research discovered and found on public resources. Some simple methods of learning in the classroom that can find solutions for many problem and tasks within in scope of the problem set is the substitution method and feedback propagation.
+
+#### Function and TF-Variables ####
+🐨🎁🎵🎶 By substitution of a or b value each time of incremental or decrease to match the target aligns, the substitution technique can find the value numbers in a pre-defined relationship and they are using tf.Variable because some processes are not the final no reverse substitution.   
+```
+a = tf.Variable(20.0)
+b = tf.Variable(30.2)
+
+def h(x):
+   y = a*x + b
+   return y
+```
+
 * ML0120EN-1.4-Review-LogisticRegressionwithTensorFlow.ipynb
 * ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
