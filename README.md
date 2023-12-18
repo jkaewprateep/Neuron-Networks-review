@@ -896,6 +896,35 @@ def h(x):
    return y
 ```
 
+#### Gradient Tape - regression problem solution finding ####
+```
+learning_rate = 0.01
+train_data = []
+loss_values =[]
+a_values = []
+b_values = []
+# steps of looping through all your data to update the parameters
+training_epochs = 200
+
+# train model
+for epoch in range(training_epochs):
+    with tf.GradientTape() as tape:
+        y_predicted = h(train_x)
+        loss_value = loss_object(train_y,y_predicted)
+        loss_values.append(loss_value)
+
+        # get gradients
+        gradients = tape.gradient(loss_value, [b,a])
+        
+        # compute and adjust weights
+        a_values.append(a.numpy())
+        b_values.append(b.numpy())
+        b.assign_sub(gradients[0]*learning_rate)
+        a.assign_sub(gradients[1]*learning_rate)
+        if epoch % 5 == 0:
+            train_data.append([a.numpy(), b.numpy()])
+```
+
 * ML0120EN-1.4-Review-LogisticRegressionwithTensorFlow.ipynb
 * ML0120EN-2.2-Review-CNN-MNIST-Dataset.ipynb
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
