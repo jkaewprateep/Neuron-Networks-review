@@ -896,7 +896,9 @@ def h(x):
    return y
 ```
 
-#### Gradient Tape - regression problem solution finding ####
+#### Gradient Tape - regression problem solution finding #### 
+🐨🎁🎵🎶 Gradient Tape optimization is used in some tasks that require accumulated value evaluation or assignment feedback value from summing that is a faster calculation when working with large datasets and in larger platform distributed they are using this method for remote running execution because of accuracy work same as precision determine. 
+[Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/tree/main?tab=readme-ov-file#tf-variables-in-gradients-optimization)
 ```
 learning_rate = 0.01
 train_data = []
