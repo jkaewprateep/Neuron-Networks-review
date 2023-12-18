@@ -981,7 +981,8 @@ def y_CNN(x): return tf.nn.softmax(fc(x))
 ```
 
 #### Network layers ####
-[Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#internal-function)
+👧💬 🎈 Fundamental of fully connected node and possible to create multiple operations node or internal function node. In the sequential model, you do not need to create internal function layers but you can use sinusoid to connect layer output to the next layer input in scope by specific target layer. To specific target layer is possible do it by Tensorflow, Pytorch, and TF-learn.
+See the example of internal functions [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#internal-function)
 ```
 # Fully connected layer
 def fcl(x): return tf.matmul(layer2_matrix(x), W_fc1) + b_fc1
