@@ -863,6 +863,7 @@ predict = model.predict_generator(validation_generator, steps = 100)
 #### Multiple of adaptive neurons networks ####
 * ML0120EN-1.1-Review-TensorFlow-Hello-World.ipynb
 - 🧸💬 Fundamental methods for TensorFlow, create tf.tensors from tf.constant, multiple-dimensions arrays operations, and tf.variable. There are steps of calculation and types of variables, output from multiplication process or process no reverse form can be stored in tf.contant and tf.variablle when the calculation step is in tf.variable form.
+[Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#data-conditions)
 
 * ML0120EN-1.2-Review-LinearRegressionwithTensorFlow.ipynb
 * ML0120EN-1.4-Review-LogisticRegressionwithTensorFlow.ipynb
@@ -965,4 +966,10 @@ predict = model.predict_generator(validation_generator, steps = 100)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_conditions.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/data_conditions.jpg">
+</picture>
+
+#### TF-variables in gradients optimization ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/gradients_optimization.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/gradients_optimization.jpg">
 </picture>
