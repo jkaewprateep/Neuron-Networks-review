@@ -747,6 +747,7 @@ plt.show()
 ```
 
 #### Results ####
+🐐💬 The results explain about the number of image input ( manipulate value we found a bug in previous MNIST versions ), class of the target we can identify by arrays, name of folder or indexes files and function and number of class the ImageGenerator contain, and sample of first 24 indexes. 🐑💬 This is for training purposes working actual we need to use distributed data use the shuffles. 
 ```
 Found 40000 images belonging to 2 classes.
 {'Negative': 0, 'Positive': 1}
