@@ -926,7 +926,7 @@ for epoch in range(training_epochs):
 ```
 
 * ML0120EN-1.4-Review-LogisticRegressionwithTensorFlow.ipynb
-🦭💬 Difference between linear regression and logistic regression is that the target output is continuous, two it is logistics it does not require a label and three logistics can be adaptive to the target platform easily. See the sample of logistics output or logits shape and see from example is easy to understand than reading word because of once I read it for the first time I have the same question, how it not always required label but they can communications [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/tree/main?tab=readme-ov-file#image-pre-process-and-compressed-commands) 
+- 🦭💬 Difference between linear regression and logistic regression is that the target output is continuous, two it is logistics it does not require a label and three logistics can be adaptive to the target platform easily. See the sample of logistics output or logits shape and see from example is easy to understand than reading word because of once I read it for the first time I have the same question, how it not always require label but they can communications [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/tree/main?tab=readme-ov-file#image-pre-process-and-compressed-commands) 
 
 ```
 # Three-component breakdown of the Logistic Regression equation.
