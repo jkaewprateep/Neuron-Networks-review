@@ -695,6 +695,10 @@ negative_images = np.array(negative_images)
 ```
 
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
+- 🐐💬 Data Image Generator can perform image data manipulation and extra with the custom function they allowed tf.keras.preprocessing.image.ImageDataGenerator#preprocessing_function. In this method we can perform negative images, hue images with target functions, or differentiation of its input images by the pre-processing method.  
+ 
+
+
 * DL0321EN-3-1-Pretrained-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
@@ -784,4 +788,10 @@ negative_images = np.array(negative_images)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Input_identity_identification.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Input_identity_identification.jpg">
+</picture>
+
+#### Image pre-process and compressed commands ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/pre-process_compressed_commands.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/pre-process_compressed_commands.jpg">
 </picture>
