@@ -953,7 +953,7 @@ def forward(x):
 ```
 
 #### SoftMax function ####
-👧💬 🎈 By summary of all input as an array with the same size to 1.0 for easy to identify the most indicates from overall. There are more entropy functions but softmax is famous because it can combine with other functions to identify significance and sometimes requires a function to identify identical from different input from the same logits shape such as output to binary or compressed command for communication or error correction function. [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-pre-process-and-compressed-commands)
+👧💬 🎈 By summary of all input as an array with the same size to 1.0 for easy to identify the most indicates from overall. There are more entropy functions but softmax is famous because it can combine with other functions to identify significance and sometimes requires a function to identify identical from different input from the same logits shape such as output to binary or compressed command for communication or error correction function. [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-pre-process-and-compressed-commands) 🐑💬 Thinking about networks circuits balance or impedance circuits implement into the logic simulation.
 ```
 vector = [10, 0.2, 8]
 softmax = tf.nn.softmax(vector)
