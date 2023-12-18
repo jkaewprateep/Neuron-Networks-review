@@ -959,6 +959,17 @@ vector = [10, 0.2, 8]
 softmax = tf.nn.softmax(vector)
 ```
 
+#### Cost function ####
+👧💬 🎈 Cost function or criterion when considering composite of gradient value optimization, or loss value estimation function. It can be any function working with a finite set of data and select for suitable job see the target loss value estimation function sample is Y-new - Y [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#customer-loss-value-estimation-function)
+```
+def cross_entropy(y_label, y_pred):
+    return (-tf.reduce_sum(y_label * tf.math.log(y_pred + 1.e-10)))
+# addition of 1e-10 to prevent errors in zero calculations
+
+# current loss function for unoptimized model
+cross_entropy(y_train, model(x_train)).numpy()
+```
+
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
