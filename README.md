@@ -970,6 +970,30 @@ def cross_entropy(y_label, y_pred):
 cross_entropy(y_train, model(x_train)).numpy()
 ```
 
+#### Activation functions ####
+
+#### Network layers ####
+
+#### Interpolate function from convolution2D function ####
+🦭💬 Some materials are mistyped by accident just add the convolution2D with target output logits to create a correct function with function result expecting.
+```
+# ActivatedUnits = sess.run(convolve2,feed_dict={x:np.reshape(sampleimage,[1,784],order='F'),keep_prob:1.0})
+# 🧸💬 That is because the convolve1 is only covolution layer 
+# It requried target shape when you not reply the error message but 
+# expectation input outcomes.
+# The errors message is happen at time of the event and it required 
+# intention to forward.
+ActivatedUnits = convolve2(np.asarray(sampleimage).reshape((28,28,1,1)))
+filters = ActivatedUnits.shape[3]
+plt.figure(1, figsize=(20,20))
+n_columns = 8
+n_rows = np.math.ceil(filters / n_columns) + 1
+for i in range(filters):
+    plt.subplot(n_rows, n_columns, i+1)
+    plt.title('Filter ' + str(i))
+    plt.imshow(ActivatedUnits[0,:,:,i], interpolation="nearest", cmap="gray")
+```
+
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
