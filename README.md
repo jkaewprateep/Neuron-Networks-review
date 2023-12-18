@@ -971,7 +971,7 @@ cross_entropy(y_train, model(x_train)).numpy()
 ```
 
 #### Activation functions ####
-
+👧💬 🎈 Activation function is a designer by ratios or conditions to target output of each node in each layer, it can be linear, sinusoidal, conditions, or any function. An example of a miss use of the activation function is some missing value or too small or too large of numbers that can create -nan or 0 value of target optimize in the network running process.
 ```
 # ReLU activation function
 def h_conv1(x): return(tf.nn.relu(convolve1(x)))
@@ -981,7 +981,7 @@ def y_CNN(x): return tf.nn.softmax(fc(x))
 ```
 
 #### Network layers ####
-
+[Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#internal-function)
 ```
 # Fully connected layer
 def fcl(x): return tf.matmul(layer2_matrix(x), W_fc1) + b_fc1
