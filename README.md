@@ -774,8 +774,24 @@ model.add(ResNet50(
     weights='imagenet',
     ))
 ```
+#### Training sequential model ####
+🐑💬 It is important to compile before training to initial value back to their settings, sometimes steps per epoch can change for overlap results in the same set as circular with small ratios for better results.
+```
+model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
+steps_per_epoch_training = len(train_generator)
+steps_per_epoch_validation = len(validation_generator)
+num_epochs = 2
 
+fit_history = model.fit_generator(
+    train_generator,
+    steps_per_epoch=steps_per_epoch_training,
+    epochs=num_epochs,
+    validation_data=validation_generator,
+    validation_steps=steps_per_epoch_validation,
+    verbose=1,
+)
+```
 
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
