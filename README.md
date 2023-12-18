@@ -952,6 +952,13 @@ def forward(x):
     return tf.matmul(x,W) + b
 ```
 
+#### SoftMax function ####
+👧💬 🎈 By summary of all input as an array with the same size to 1.0 for easy to identify the most indicates from overall. There are more entropy functions but softmax is famous because it can combine with other functions to identify significance and sometimes requires a function to identify identical from different input from the same logits shape such as output to binary or compressed command for communication or error correction function. 
+```
+vector = [10, 0.2, 8]
+softmax = tf.nn.softmax(vector)
+```
+
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
