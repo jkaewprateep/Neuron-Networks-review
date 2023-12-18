@@ -664,6 +664,36 @@ def convolutional_model():
 ```
 
 * DL0321EN-1-1-Loading-Data-py-v1.0.ipynb
+- 🧸💬 For a simple method creating arrays of data and its label them to perform a calculation with a target function in a sequential model is possible by using Numpy library, Python library, Panda dataframe, index files, and database. You can refer to the target dataset, target file location, versions, functions and target data sources allowed to transfer of the dataset object with the same method to perform the same output. Same as some applications if we only need the strict policy to fully works on the target application but do not allowed to copy most of IT admin using security methods but file size and working policy are also applicable do not too look down this step.    
+
+#### Create arrays input and label from images target ####
+```
+%%time
+
+import os
+import numpy as np
+import matplotlib.pyplot as plt
+import skillsnetwork
+
+from PIL import Image
+
+## 🧸💬 The os scandir is monitoring of new objects activity
+## That is a good ideas when there is less than hundred of files
+## you can perform file create or modify events but you do not
+## need to registered that much of objects.
+negative_files = os.listdir('./Negative')
+negative_files
+
+negative_images = []
+for file_name in negative_files:
+    if os.path.isfile(file_name):
+        image_name = str(file_name).split("'")[1]
+        image_data = plt.imread('./Negative/{}'.format(image_name))
+        negative_images.append(image_data)
+    
+negative_images = np.array(negative_images)
+```
+
 * DL0321EN-2-1-Data-Preparation-py-v1.0.ipynb
 * DL0321EN-3-1-Pretrained-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
