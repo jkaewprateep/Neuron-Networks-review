@@ -804,6 +804,7 @@ model.save('classifier_resnet_model.h5')
 
 * DL0321EN-4-1-Comparing-Models-py-v1.0.ipynb
 * DL0321EN-4-1-Comparing-Models-py-v1.ipynb
+- 🦭💬 Create a sequential model from a pre-trained model, one method to provide them the data sources without being exposed or trapped by network package identification is by the dataset but some bad man try to use it as a hacker step. Inside the dataset can contain multiple functions to manipulate and sort data when they are stored as sequences of binary numbers or encrypted messages. 🦭💬 We noticed with someone running the dataset or later running.
 
 #### Multiple of adaptive neurons networks ####
 * ML0120EN-1.1-Review-TensorFlow-Hello-World.ipynb
