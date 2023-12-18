@@ -698,7 +698,7 @@ negative_images = np.array(negative_images)
 - 🐐💬 Data Image Generator can perform image data manipulation and extra with the custom function they allowed tf.keras.preprocessing.image.ImageDataGenerator#preprocessing_function. In this method we can perform negative images, hue images with target functions, or differentiation of its input images by the pre-processing method. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-pre-process-and-compressed-commands)
 
 #### Create ImageDataGenerator class ####
-🐐💬 The instance of ImageGenerator class is more than indexes, it creates rewindable indexes with tensor shape, we can work with tensors shape as a simple tensors shape but they remain the property of item identification.  
+🐐💬 The instance of ImageGenerator class is more than indexes, it creates rewindable indexes with tensor shape, we can work with tensors shape as a simple tensors shape but they remain the property of item identification. [Jump to](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#multi-process-and-tf-agents)  
 ```
 # instantiate your image data generator
 data_generator = ImageDataGenerator()
