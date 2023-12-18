@@ -1069,3 +1069,9 @@ def forward(x):
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappybird.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappybird.jpg">
 </picture>
+
+#### Customer Loss value estimation function ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_lossfn.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/custom_lossfn.jpg">
+</picture>
