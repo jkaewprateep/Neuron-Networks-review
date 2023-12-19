@@ -1053,8 +1053,11 @@ stacked_lstm =  tf.keras.layers.StackedRNNCells(cells)
 lstm_layer= tf.keras.layers.RNN(stacked_lstm ,return_sequences=True, return_state=True)
 ```
 
-
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
+- 🦭💬 Application in words embedding and sequential inputs, in LSTM networks application the attention networks determine of the next phase of word presenting as attention scores by overall experience, language models, patterns or configuration.  
+[Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#sentence-words-embedding---attention-networks)
+
+
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
 
