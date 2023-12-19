@@ -1284,7 +1284,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 <br>Ref[11]: Markov chain model</br>
 
 #### Forward pass ####
-- 🐑💬 Example of the forward network ( layer ) with probability statistics and distribution domain. The sigmoid activation function works as a condition filter allowing a change of value in scopes to pass the same as the bandpass-filter. The linear rectangular activation filter determines the contrast between two nodes equivalent [ 0, 0 ].
+- 🐑💬 Example of the forward network ( layer ) with probability statistics and distribution domain. The sigmoid activation function works as a condition filter allowing a change of value in scopes to pass the same as the bandpass-filter. The linear rectangular activation filter determines the contrast between two nodes equivalent [ 0, 0 ]. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#power-series )
 ```
 X = tf.constant([[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]], tf.float32)
 
