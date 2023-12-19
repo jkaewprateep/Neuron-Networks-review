@@ -1274,6 +1274,12 @@ print("Test Perplexity: %.3f" % test_perplexity)
 </picture>
 <br>Ref[10]: Contrastive Divergence</br>
 
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
+</picture>
+<br>Ref[11]: Markov chain model</br>
+
 
 * ML0120EN-Eager_Execution.ipynb
 
@@ -1303,6 +1309,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 |     8| https://www.ibm.com/products/watson-studio | IBM Watson Studio ( Free credits 200$ from Coursera course where I had free from IBM 1 month access ) |
 |     9| https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf | Restricted BOLTZMANN and collaborative filtering |
 |    10| https://www.researchgate.net/profile/Binu-Nair/publication/313556538/figure/fig10/AS:460275318038537@1486749595664/Illustration-of-Contrastive-Divergence-for-training-RBMs.png | Contrastive Divergence |
+|    11| https://i.stack.imgur.com/spAbV.png | Markov chain model |
 
 
 ## Applications ##
