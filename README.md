@@ -1331,6 +1331,9 @@ v_state = tf.nn.relu(tf.sign(v_prob - tf.random.uniform(tf.shape(v_prob))))
 print ("v probability states: ", v_state)
 ```
 
+#### Probability distribution ####
+- 🐑💬 I have an example of probability distribution as we can play AI Games with random functions and scopes by our learning pattern from the games, the same as in the experiment we added noise to input variables to prove our solution durability.
+
 * ML0120EN-Eager_Execution.ipynb
 
 #### Applied sciences for basics neurons networks and adaptation ####
