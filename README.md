@@ -1023,6 +1023,19 @@ for i in range(filters):
 
 #### Explaining LSTM behavior in GAME AI object screen detection ####
 
+```
+[ 1 1 1 1 1 1 1 1 1 1 ] ==> [ 0 0 0 0 0 0 0 0 0 0 ]
+[ 1 2 1 1 1 1 1 1 1 1 ] ==> [ 0 1 1 1 1 0 0 1 0 ]
+[ 1 1 2 1 1 1 1 1 1 1 ] ==> [ 0 0 0 2 2 0 0 2 2 ]
+[ 1 1 1 2 1 1 1 1 1 1 ] ==> [ 0 0 3 3 3 0 3 0 0 ]
+[ 1 1 1 1 2 1 1 1 1 1 ] ==> [ 0 0 4 0 4 0 4 4 0 ]
+[ 1 1 1 1 1 2 1 1 1 1 ] ==> [ 0 0 0 5 5 0 0 5 5 ]
+[ 1 1 1 1 1 1 2 1 1 1 ] ==> [ 6 0 0 6 6 6 0 6 0 ]
+[ 1 1 1 1 1 1 1 2 1 1 ] ==> [ 0 7 0 0 0 7 7 7 0 ]
+[ 1 1 1 1 1 1 1 1 2 1 ] ==> [ 0 8 0 0 0 8 0 0 8 ]
+[ 1 1 1 1 1 1 1 1 1 2 ] ==> [ 9 9 0 0 0 0 0 9 9 ]
+```
+
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
