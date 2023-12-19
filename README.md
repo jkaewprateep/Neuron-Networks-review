@@ -1390,6 +1390,25 @@ def random_action(  ):
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/objective_function.jpg">
 </picture>
 
+- 🐑💬 The learning feature in study material is image transformation and you can safely communicate a message.
+
+#### Communication and interaction logs in JSON format ####
+```
+data_string = json_format.MessageToJson(example)
+example_binary = tf.io.decode_json_example(data_string)
+
+example_phase = tf.io.parse_example(
+serialized=[example_binary.numpy()],
+features = { 	
+                "1": tf.io.FixedLenFeature(shape=[ 183 * 275 * 3 ], dtype=tf.int64),
+                "2": tf.io.FixedLenFeature(shape=[ 183 * 275 * 3 ], dtype=tf.int64)
+            })
+```
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/JSON_image.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/JSON_image.jpg">
+</picture>
+
 * ML0120EN-Eager_Execution.ipynb
 
 #### Applied sciences for basics neurons networks and adaptation ####
