@@ -1259,6 +1259,10 @@ class PTBModel(object):
 |     2| IBM Data Science's Jupiter NoteBook | IBM Data Science course on Coursera |
 |     3| https://www.xenonstack.com/blog/artificial-neural-network-applications | Famous types of Nuerons Networks |
 |     4| https://github.com/tensorflow/datasets/tree/master/tensorflow_datasets/image_classification/mnist.py | MNIST image classification dataset |
+|     5| https://www.tensorflow.org/text/tutorials/word2vec | Tensorflow word to vector method and solution |
+|     6| https://www.tensorflow.org/api_docs/python/tf/keras/Model | Tensorflow and Keras sequential model and solution |
+|     7| https://stackoverflow.com/users/7848579/jirayu-kaewprateep | DekDee contributed on StackOverflow |
+
 
 ## Applications ##
 
