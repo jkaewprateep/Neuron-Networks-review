@@ -1263,6 +1263,9 @@ print("Test Perplexity: %.3f" % test_perplexity)
 ```
 
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
+- 🐑💬 Restricted BOLTZMANN machine when the significant values update evaluation with Eigaint significant values method, before using LSTM we can determine the value to forgetting by the significant values calculation from Eigant significant values. Restricted BOLTZMANN can perform work by SOFTMAX layer output when significant value updates because there are very small updates on each iteration but learning from significant values. Restricted BOLTZMANN and collaborative filtering [Jump To]( https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf )
+
+
 * ML0120EN-Eager_Execution.ipynb
 
 #### Applied sciences for basics neurons networks and adaptation ####
