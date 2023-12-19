@@ -1472,6 +1472,12 @@ print ("v probability states: ", v_state)
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/LSTM-layer.jpg">
 </picture>
 
+#### Possibility matrix ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/possibility_matrix.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/possibility_matrix.jpg">
+</picture>
+
 #### Sentence words embedding - attention networks ####
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
