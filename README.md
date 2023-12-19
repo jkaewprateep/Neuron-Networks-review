@@ -1410,7 +1410,7 @@ features = {
 </picture>
 
 * ML0120EN-Eager_Execution.ipynb
-- 🐐💬 Eager execution is introduced in TF2.X to support the graph algorithms its improvement to support the backward algorithm by significant value estimation because of the similar nodes on the same iteration running should provide close value and this can estimate by Eigant significant values ```tf.executing_eagerly()```. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#re-enforcement-learning )
+- 🐐💬 Eager execution is introduced in TF2.X to support the graph methodology and its improvement to support the backward algorithm by significant value estimation because of the similar nodes on the same iteration running should provide close value and this can estimate by Eigant significant values ```tf.executing_eagerly()```. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#re-enforcement-learning )
 
 ```
 # enable eager execution mode or default in TF 2.X
@@ -1421,7 +1421,7 @@ disable_eager_execution()
 ```
 
 #### None-eagle session running ####
-🐐💬 Create a session object and execute the thread this process is the same as worker standard process or customizable.
+🐐💬 Create a session object and execute the thread this process is the same as the worker standard process or customizable.
 ```
 # Define variables
 a = tf.constant(np.array([1., 2., 3.]))
@@ -1434,6 +1434,18 @@ output = session.run(c)
 
 # Close session
 session.close()
+```
+
+#### Eagle session running ####
+🐐💬 You can work with Tf.variable, TF.placeholder, or TF.constant with eagle mode but the module function with none-public variable performs accumulate function by TF.variable and TF.placeholder to use benefits from the performance of graph methodology.
+```
+# Define variables
+a = tf.constant(np.array([1., 2., 3.]))
+b = tf.constant(np.array([4.,5.,6.]))
+c = tf.tensordot(a, b,1)
+
+# Working with constant variable
+c.numpy()
 ```
 
 #### Applied sciences for basics neurons networks and adaptation ####
