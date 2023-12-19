@@ -1043,7 +1043,7 @@ output, final_memory_state, final_carry_state = lstm(inputs)
 ```
 
 #### STACKED LSTM ####
-🐨🎁🎵🎶 There are multiple LSTM layers in the sequential model but stacked LSTM is something different, it is built into the same unit and works with internal variable transfer within the new re-current network and works as the same recurrent network layer. This technique works with module networks because they are patterns as block codes different from residual networks to perform the same tasks again with the same network because it is a re-current network.
+🐨🎁🎵🎶 There are multiple LSTM layers in the sequential model but stacked LSTM is something different, it is built into the same unit and works with internal variable transfer within the new re-current network and works as the same recurrent network layer. This technique works with module networks because they are patterns as block codes different from residual networks to perform the same tasks again with the same network because it is a recurrent network. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#input-identity-identification-method )
 ```
 cell1, cell2 = tf.keras.layers.LSTMCell(LSTM_CELL_SIZE_1)
 cells.append(cell1)
