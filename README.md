@@ -1582,3 +1582,9 @@ disable_eager_execution()
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_masking.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_masking.jpg">
 </picture>
+
+#### Re-enforcement learning ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/reinforcement_learning.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/reinforcement_learning.jpg">
+</picture>
