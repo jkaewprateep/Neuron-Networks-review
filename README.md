@@ -1288,6 +1288,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 |     5| https://www.tensorflow.org/text/tutorials/word2vec | Tensorflow word to vector method and solution |
 |     6| https://www.tensorflow.org/api_docs/python/tf/keras/Model | Tensorflow and Keras sequential model and solution |
 |     7| https://stackoverflow.com/users/7848579/jirayu-kaewprateep | DekDee contributed on StackOverflow |
+|     8| https://www.ibm.com/products/watson-studio | IBM Watson Studio |
 
 
 ## Applications ##
