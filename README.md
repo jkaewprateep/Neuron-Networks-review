@@ -1036,6 +1036,12 @@ for i in range(filters):
 [ 1 1 1 1 1 1 1 1 1 2 ] ==> [ 9 9 0 0 0 0 0 9 9 ]
 ```
 
+#### LSTM input-output ####
+🐨🎁🎵🎶 Because the LSTM network layer is a re-current network process, there is an input to provide the output, final_memory_state, and final_carry_state. You can select to work with input or input with carry state because the LSTM layer is defined as a class object with running. The output from LSTM layer can be the final result or the next layer input when carrying flags is an internal state of the LSTM layer and you can transfer carrying flags for the learning method between LSTM layers same as the multiple-LSTM layers process. Sometimes final_memory_state with final_carry_state or flags are determined of the process running and the significance of the process owner when there are multiple LSTM layers from multiple nodes. Yesterday someone talked about governance artificial networks these are some requirements when the fully connected layer has segmentation and LSTM can have carrying flags. 
+```
+output, final_memory_state, final_carry_state = lstm(inputs)
+```
+
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
