@@ -1266,7 +1266,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 - 🐑💬 Restricted BOLTZMANN machine when the significant values update evaluation with Eigaint significant values method, before using LSTM we can determine the value to forgetting by the significant values calculation from Eigant significant values. Restricted BOLTZMANN can perform work by SOFTMAX layer output when significant value updates because there are very small updates on each iteration but learning from significant values. Restricted BOLTZMANN and collaborative filtering [Jump To]( https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf )
 
 #### Contrastive Divergence ####
-- 🐑💬 Simply explain why scientists think about the positive and negative side effects of an event from action because there is some study explaining stability and possibility same as contrastive divergence. This contrastive divergence or approximate maximum likelihood of two sequences used in the network training method, starting from similarity and learning of events or input can create branches of action that can determine possibility example as the Markov chain distribution.
+- 🐑💬 Simply explain why scientists think about the positive and negative side effects of an event from action because there is some study explaining stability and possibility same as contrastive divergence. This contrastive divergence or approximate maximum likelihood of two sequences used in the network training method, starting from similarity and learning of events or input can create branches of action that can determine possibility example as the Markov chain distribution [Jump To]( https://www.researchgate.net/profile/Binu-Nair/publication/313556538 )
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
@@ -1274,6 +1274,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 </picture>
 <br>Ref[10]: Contrastive Divergence</br>
 
+- 🐑💬 Markov chain is a method for determining the likelihood of two or more sequences with the possibility of input events and action. This method is famous because of the traceability and adjustable of matrix rules it does not require a large calculation process by itself but the methods they feedback value into their calculation matrix table. Scientists solved this problem in time by using the Eigant significant value to reduce the sizes of the calculation matrix. It allowed the likelihood approximate process performing on significant rows or areas.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
