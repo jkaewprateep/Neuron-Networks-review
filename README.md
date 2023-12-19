@@ -1274,7 +1274,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 </picture>
 <br>Ref[10]: Contrastive Divergence</br>
 <br></br>
-- 🐑💬 Markov chain is a method for determining the likelihood of two or more sequences with the possibility of input events and action. This method is famous because of the traceability and adjustable of matrix rules it does not require a large calculation process by itself but the methods they feedback value into their calculation matrix table. Scientists solved this problem in time by using the Eigant significant value to reduce the sizes of the calculation matrix. It allowed the likelihood approximate process performing on significant rows or areas.
+- 🐑💬 Markov chain is a method for determining the likelihood of two or more sequences with the possibility of input events and action. This method is famous because of the traceability and adjustable of matrix rules it does not require a large calculation process by itself but the methods they feedback value into their calculation matrix table. Scientists solved this problem in time by using the Eigant significant value to reduce the sizes of the calculation matrix. It allowed the likelihood of approximate processes performed on significant rows or areas [Jump To]( https://math.stackexchange.com/questions/3397763/calculating-probability-in-markov-chains )
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
@@ -1310,7 +1310,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 |     8| https://www.ibm.com/products/watson-studio | IBM Watson Studio ( Free credits 200$ from Coursera course where I had free from IBM 1 month access ) |
 |     9| https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf | Restricted BOLTZMANN and collaborative filtering |
 |    10| https://www.researchgate.net/profile/Binu-Nair/publication/313556538/figure/fig10/AS:460275318038537@1486749595664/Illustration-of-Contrastive-Divergence-for-training-RBMs.png | Contrastive Divergence |
-|    11| https://i.stack.imgur.com/spAbV.png | Markov chain model |
+|    11| https://math.stackexchange.com/questions/3397763/calculating-probability-in-markov-chains | Markov chain model |
 
 
 ## Applications ##
