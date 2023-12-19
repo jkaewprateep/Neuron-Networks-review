@@ -1042,6 +1042,18 @@ for i in range(filters):
 output, final_memory_state, final_carry_state = lstm(inputs)
 ```
 
+#### STACKED LSTM ####
+🐨🎁🎵🎶 There are multiple LSTM layers in the sequential model but stacked LSTM is something different, it is built into the same unit and works with internal variable transfer within the new re-current network and works as the same recurrent network layer. This technique works with module networks because they are patterns as block codes different from residual networks to perform the same tasks again with the same network because it is a re-current network.
+```
+cell1, cell2 = tf.keras.layers.LSTMCell(LSTM_CELL_SIZE_1)
+cells.append(cell1)
+cells.append(cell2)
+
+stacked_lstm =  tf.keras.layers.StackedRNNCells(cells)
+lstm_layer= tf.keras.layers.RNN(stacked_lstm ,return_sequences=True, return_state=True)
+```
+
+
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
