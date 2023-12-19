@@ -1452,6 +1452,62 @@ c.numpy()
 * CNN.ipynb
 - 🦭💬 Building convolution networks class, One of the outputs of the convolution networks can estimate of target size value by result of 2 * padding size + kernel size over stride matrix size. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )    
 
+```
+# Create the model object using CNN class
+
+model = CNN(out_1=16, out_2=32)
+
+# Train the model
+
+# Number of times we want to train on the taining dataset
+n_epochs=3
+# List to keep track of cost and accuracy
+cost_list=[]
+accuracy_list=[]
+# Size of the validation dataset
+N_test=len(validation_dataset)
+
+# Model Training Function
+def train_model(n_epochs):
+    # Loops for each epoch
+    for epoch in range(n_epochs):
+        # Keeps track of cost for each epoch
+        COST=0
+        # For each batch in train loader
+        for x, y in train_loader:
+            # Resets the calculated gradient value, this must be done each time as it accumulates if we do not reset
+            optimizer.zero_grad()
+            # Makes a prediction based on X value
+            z = model(x)
+            # Measures the loss between prediction and acutal Y value
+            loss = criterion(z, y)
+            # Calculates the gradient value with respect to each weight and bias
+            loss.backward()
+            # Updates the weight and bias according to calculated gradient value
+            optimizer.step()
+            # Cumulates loss 
+            COST+=loss.data
+        
+        # Saves cost of training data of epoch
+        cost_list.append(COST)
+        # Keeps track of correct predictions
+        correct=0
+        # Perform a prediction on the validation  data  
+        for x_test, y_test in validation_loader:
+            # Makes a prediction
+            z = model(x_test)
+            # The class with the max value is the one we are predicting
+            _, yhat = torch.max(z.data, 1)
+            # Checks if the prediction matches the actual value
+            correct += (yhat == y_test).sum().item()
+        
+        # Calcualtes accuracy and saves it
+        accuracy = correct / N_test
+        accuracy_list.append(accuracy)
+     
+train_model(n_epochs)
+```
+
 * Neural_Network_RELU_vs_Sigmoid.ipynb
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
