@@ -1382,6 +1382,9 @@ def random_action(  ):
 	return action
 ```
 
+#### Objective function ####
+- 🐑💬 In the study materials if we understand the linear algorithm property we can use the summary function perform operation as a linear function with linear logarithms the example has  to explain about savings of the calculation process by the logarithm function. Look at the Eigant values method but now try to use the logarithms function in the small iterations it requires a lot of power because the results of the logarithms function are in small decimals numbers and the change of their values are very small but in larger scales, they are saved power of calculation because it updates on significant data learning and it does not required every time update as algorithm and differentiate the value of them are not significant. 
+
 * ML0120EN-Eager_Execution.ipynb
 
 #### Applied sciences for basics neurons networks and adaptation ####
