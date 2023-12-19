@@ -1321,7 +1321,7 @@ h0 states: tf.Tensor([[0. 0.]], shape=(1, 2), dtype=float32)
 ```
 
 #### Backward pass ####
-- 🐑💬 The backward process can do both update weight or bias but there is a profitability from known state then the update state helps the learning process by accelerating the learning process. Some network layers require previous state sequence not only the output because of its benefit in learning. ( 👧💬 🎈 Learn from example is how our brain are training see the target and see the result then aim to the process )   
+- 🐑💬 The backward process can do both update weight or bias but there is a profitability from known state then the update state helps the learning process by accelerating the learning process. Some network layers require previous state sequence not only the output because of its benefit in learning. ( 👧💬 🎈 Learn from example is how our brain are training see the target and see the result then aim to the process ) *Image masking to find object from new sample example of learning from label [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-masking )   
 ```
 vb = tf.constant([0.1, 0.2, 0.1, 0.1, 0.1, 0.2, 0.1])
 print ("b: ", vb)
