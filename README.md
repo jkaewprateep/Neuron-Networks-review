@@ -1270,7 +1270,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
 </picture>
-Ref[10]: Contrastive Divergence
+<br>Ref[10]: Contrastive Divergence</br>
 
 
 * ML0120EN-Eager_Execution.ipynb
