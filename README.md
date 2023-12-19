@@ -1410,7 +1410,7 @@ features = {
 </picture>
 
 * ML0120EN-Eager_Execution.ipynb
-- 🐐💬 Eager execution is introduced in TF2.X to support the graph algorithms its improvement to support the backward algorithm by significant value estimation because of the similar nodes on the same iteration running should provide close value and this can estimate by Eigant significant values ```tf.executing_eagerly()```.
+- 🐐💬 Eager execution is introduced in TF2.X to support the graph algorithms its improvement to support the backward algorithm by significant value estimation because of the similar nodes on the same iteration running should provide close value and this can estimate by Eigant significant values ```tf.executing_eagerly()```. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#re-enforcement-learning )
 
 ```
 # enable eager execution mode or default in TF 2.X
