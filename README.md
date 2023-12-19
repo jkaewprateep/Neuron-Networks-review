@@ -1274,6 +1274,9 @@ print("Test Perplexity: %.3f" % test_perplexity)
 </picture>
 <br>Ref[10]: Contrastive Divergence</br>
 
+<br></br>
+<br></br>
+
 - 🐑💬 Markov chain is a method for determining the likelihood of two or more sequences with the possibility of input events and action. This method is famous because of the traceability and adjustable of matrix rules it does not require a large calculation process by itself but the methods they feedback value into their calculation matrix table. Scientists solved this problem in time by using the Eigant significant value to reduce the sizes of the calculation matrix. It allowed the likelihood approximate process performing on significant rows or areas.
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
