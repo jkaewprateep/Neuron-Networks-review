@@ -1450,7 +1450,7 @@ c.numpy()
 
 #### Applied sciences for basics neurons networks and adaptation ####
 * CNN.ipynb
-- 🦭💬 Building convolution networks class, One of the outputs of the convolution networks can estimate of target size value by result of 2 * padding size + kernel size over stride matrix size.    
+- 🦭💬 Building convolution networks class, One of the outputs of the convolution networks can estimate of target size value by result of 2 * padding size + kernel size over stride matrix size. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )    
 
 * Neural_Network_RELU_vs_Sigmoid.ipynb
 * Simple_Neural_Network_for_XOR.ipynb
