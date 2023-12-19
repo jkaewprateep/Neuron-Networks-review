@@ -1091,7 +1091,7 @@ train_op = optimizer.apply_gradients(zip(grads, tvars))
 ```
 
 #### Create a custom LSTM model as class object ####
-🧸💬 You can create a custom sequential model from the object class or tf.keras.Model class [Jump To]( https://www.tensorflow.org/api_docs/python/tf/keras/Model ) This is super easy you can removed the comment and use inherit class pattern.
+🧸💬 You can create a custom sequential model from the object class or tf.keras.Model class [Jump To]( https://www.tensorflow.org/api_docs/python/tf/keras/Model ) This is super easy you can remove the comment and use inherit class pattern. You can find example of time distribution model [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#input-identity-identification-method ) as many of people try to learn TensorFlow asking how to make Integrate number or differentiate sequence numbers.
 ```
 class PTBModel(object):
 
