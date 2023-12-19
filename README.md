@@ -1237,7 +1237,7 @@ class PTBModel(object):
 ```
 
 #### Sequential model training ####
-🧸💬 Iteration running process improvement of the custom model we create and evaluate from result prediction and compare. From evaluation, we can define of next approach improvement more than accuracy and > 0.2 of loss estimation value but process of solution we are looking for the answer. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confidence.jpg )
+🧸💬 Iteration running process improvement of the custom model we create and evaluate from result prediction and compare. From evaluation, we can define of next approach improvement more than accuracy and > 0.2 of loss estimation value but process of solution we are looking for the answer. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#words-or-sequence-confidence-scores )
 ```
 # Instantiates the PTBModel class
 m=PTBModel.instance()   
