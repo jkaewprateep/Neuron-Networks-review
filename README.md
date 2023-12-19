@@ -1188,3 +1188,9 @@ lstm_layer= tf.keras.layers.RNN(stacked_lstm ,return_sequences=True, return_stat
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/LSTM-layer.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/LSTM-layer.jpg">
 </picture>
+
+#### Sentence words embedding - attention networks ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
+</picture>
