@@ -1508,6 +1508,24 @@ def train_model(n_epochs):
 train_model(n_epochs)
 ```
 
+#### Iterate Pytorch data loader and plot  ####
+```
+# Plot samples
+
+count = 0
+for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1):
+    z = model(x)
+    _, yhat = torch.max(z, 1)
+    # if yhat != y:
+    show_data((x, y))
+    plt.show()
+    print("yhat: ",yhat)
+    count += 1
+
+    if count >= 5:
+        break  
+```
+
 * Neural_Network_RELU_vs_Sigmoid.ipynb
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
