@@ -1421,7 +1421,7 @@ disable_eager_execution()
 ```
 
 #### None-eagle session running ####
-🐐💬 Create a session object and execute the thread this process is the same as the worker standard process or customizable.
+🐐💬 Create a session object and execute the thread this process is the same as the worker standard process or customizable. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#data-conditions )
 ```
 # Define variables
 a = tf.constant(np.array([1., 2., 3.]))
@@ -1437,7 +1437,7 @@ session.close()
 ```
 
 #### Eagle session running ####
-🐐💬 You can work with Tf.variable, TF.placeholder, or TF.constant with eagle mode but the module function with none-public variable performs accumulate function by TF.variable and TF.placeholder to use benefits from the performance of graph methodology.
+🐐💬 You can work with Tf.variable, TF.placeholder, or TF.constant with eagle mode but the module function with none-public variable performs accumulate function by TF.variable and TF.placeholder to use benefits from the performance of graph methodology. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#data-conditions )
 ```
 # Define variables
 a = tf.constant(np.array([1., 2., 3.]))
