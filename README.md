@@ -1056,6 +1056,39 @@ lstm_layer= tf.keras.layers.RNN(stacked_lstm ,return_sequences=True, return_stat
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 - 🦭💬 Application in words embedding and sequential inputs, in LSTM networks application the attention networks determine of the next phase of word presenting as attention scores by overall experience, language models, patterns, or configuration. [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#sentence-words-embedding---attention-networks) There is a method to create vector input from words in a sentence called word2vec [Jump To](https://www.tensorflow.org/text/tutorials/word2vec). The next process from vector input is create a mix of possibility and learning patterns by attention networks starting as My name is ____ . There are a few examples of attention words in the dataset are { Dekdee, Ploy, Ji, Noon, Praw, ... } when the iteration process with the attention network provides different values for each item.  🧸💬⁉️ The highest score from attention networks is selected which is _____.
 
+#### LSTM networks training ####
+🦭💬 By the result of the word embedding layer creation of input for the LSTM network training process, 
+```
+# Reads the data and separates it into training data, validation data and testing data
+raw_data = ptb_raw_data(data_dir)
+train_data, valid_data, test_data, vocab, word_to_id = raw_data
+
+# word2vec has a built-in function in Tensorflow as in the Jump To link.
+
+# Define the Gradient variables for the learning process
+# Create a variable for the learning rate
+lr = tf.Variable(0.0, trainable=False)
+optimizer = tf.keras.optimizers.SGD(lr=lr, clipnorm=max_grad_norm)
+
+# By regression learning method create a tape object for record of the result from the learning process.
+with tf.GradientTape() as tape:
+    # Forward pass.
+    output_words_prob = model(_input_data)
+    # Loss value for this batch.
+    loss  = crossentropy(_targets, output_words_prob)
+    cost = tf.reduce_sum(loss,axis=0) / batch_size
+
+# Evaluation of the learning process same as training with optimizer and loss value estimation function. 
+# Get gradients of loss with the trainable variables.
+grad_t_list = tape.gradient(cost, tvars)
+
+# Scopes by minimize and maximize values
+grads, _ = tf.clip_by_global_norm(grad_t_list, max_grad_norm)
+
+# Training process.
+# Create the training TensorFlow Operation through our optimizer
+train_op = optimizer.apply_gradients(zip(grads, tvars))
+```
 
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
