@@ -1265,6 +1265,13 @@ print("Test Perplexity: %.3f" % test_perplexity)
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 - 🐑💬 Restricted BOLTZMANN machine when the significant values update evaluation with Eigaint significant values method, before using LSTM we can determine the value to forgetting by the significant values calculation from Eigant significant values. Restricted BOLTZMANN can perform work by SOFTMAX layer output when significant value updates because there are very small updates on each iteration but learning from significant values. Restricted BOLTZMANN and collaborative filtering [Jump To]( https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf )
 
+#### Contrastive Divergence ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
+</picture>
+Ref[10]: Contrastive Divergence
+
 
 * ML0120EN-Eager_Execution.ipynb
 
@@ -1293,6 +1300,7 @@ print("Test Perplexity: %.3f" % test_perplexity)
 |     7| https://stackoverflow.com/users/7848579/jirayu-kaewprateep | DekDee contributed on StackOverflow |
 |     8| https://www.ibm.com/products/watson-studio | IBM Watson Studio ( Free credits 200$ from Coursera course where I had free from IBM 1 month access ) |
 |     9| https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf | Restricted BOLTZMANN and collaborative filtering |
+|    10| https://www.researchgate.net/profile/Binu-Nair/publication/313556538/figure/fig10/AS:460275318038537@1486749595664/Illustration-of-Contrastive-Divergence-for-training-RBMs.png | Contrastive Divergence |
 
 
 ## Applications ##
