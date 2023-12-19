@@ -1236,6 +1236,32 @@ class PTBModel(object):
         return PTBModel()
 ```
 
+#### Sequential model training ####
+🧸💬 Iteration running process improvement of the custom model we create and evaluate from result prediction and compare. From evaluation, we can define of next approach improvement more than accuracy and > 0.2 of loss estimation value but process of solution we are looking for the answer. 
+```
+# Instantiates the PTBModel class
+m=PTBModel.instance()   
+K = tf.keras.backend 
+for i in range(max_epoch):
+    # Define the decay for this epoch
+    lr_decay = decay ** max(i - max_epoch_decay_lr, 0.0)
+    dcr = learning_rate * lr_decay
+    m._lr = dcr
+    K.set_value(m._model.optimizer.learning_rate,m._lr)
+    print("Epoch %d : Learning rate: %.3f" % (i + 1, m._model.optimizer.learning_rate))
+    # Run the loop for this epoch in the training mode
+    train_perplexity = run_one_epoch(m, train_data,is_training=True,verbose=True)
+    print("Epoch %d : Train Perplexity: %.3f" % (i + 1, train_perplexity))
+        
+    # Run the loop for this epoch in the validation mode
+    valid_perplexity = run_one_epoch(m, valid_data,is_training=False,verbose=False)
+    print("Epoch %d : Valid Perplexity: %.3f" % (i + 1, valid_perplexity))
+    
+# Run the loop in the testing mode to see how effective was our training
+test_perplexity = run_one_epoch(m, test_data,is_training=False,verbose=False)
+print("Test Perplexity: %.3f" % test_perplexity)
+```
+
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
 
