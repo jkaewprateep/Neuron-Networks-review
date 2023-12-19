@@ -1054,8 +1054,7 @@ lstm_layer= tf.keras.layers.RNN(stacked_lstm ,return_sequences=True, return_stat
 ```
 
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
-- 🦭💬 Application in words embedding and sequential inputs, in LSTM networks application the attention networks determine of the next phase of word presenting as attention scores by overall experience, language models, patterns or configuration.  
-[Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#sentence-words-embedding---attention-networks)
+- 🦭💬 Application in words embedding and sequential inputs, in LSTM networks application the attention networks determine of the next phase of word presenting as attention scores by overall experience, language models, patterns, or configuration. [Jump To](https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#sentence-words-embedding---attention-networks) There is a method to create vector input from words in a sentence called word2vec [Jump To](https://www.tensorflow.org/text/tutorials/word2vec). The next process from vector input is create a mix of possibility and learning patterns by attention networks starting as My name is ____ . There are a few examples of attention words in the dataset are { Dekdee, Ploy, Ji, Noon, Praw, ... } when the iteration process with the attention network provides different values for each item.  🧸💬⁉️ The highest score from attention networks is selected which is _____.
 
 
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
