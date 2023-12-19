@@ -1420,6 +1420,22 @@ enable_eager_execution()
 disable_eager_execution()
 ```
 
+#### None-eagle session running ####
+🐐💬 Create a session object and execute the thread this process is the same as worker standard process or customizable.
+```
+# Define variables
+a = tf.constant(np.array([1., 2., 3.]))
+b = tf.constant(np.array([4.,5.,6.]))
+c = tf.tensordot(a, b, 1)
+
+# Create session and running
+session = tf.compat.v1.Session()
+output = session.run(c)
+
+# Close session
+session.close()
+```
+
 #### Applied sciences for basics neurons networks and adaptation ####
 * CNN.ipynb
 * Neural_Network_RELU_vs_Sigmoid.ipynb
