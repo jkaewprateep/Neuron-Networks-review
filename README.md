@@ -1333,6 +1333,10 @@ print ("v probability states: ", v_state)
 
 #### Probability distribution ####
 - 🐑💬 I have an example of probability distribution as we can play AI Games with random functions and scopes by our learning pattern from the games, the same as in the experiment we added noise to input variables to prove our solution durability.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappy_distance.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappy_distance.jpg">
+</picture>
 
 * ML0120EN-Eager_Execution.ipynb
 
