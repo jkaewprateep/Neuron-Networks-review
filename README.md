@@ -1320,6 +1320,16 @@ p(h|v):  tf.Tensor([[0.01820932 0.7865284 ]], shape=(1, 2), dtype=float32)
 h0 states: tf.Tensor([[0. 0.]], shape=(1, 2), dtype=float32)
 ```
 
+#### Backward pass ####
+- 🐑💬 The backward process can do both update weight or bias but there is a profitability from known state then the update state helps the learning process by accelerating the learning process. Some network layers require previous state sequence not only the output because of its benefit in learning. ( 👧💬 🎈 Learn from example is how our brain are training see the target and see the result then aim to the process )   
+```
+vb = tf.constant([0.1, 0.2, 0.1, 0.1, 0.1, 0.2, 0.1])
+print ("b: ", vb)
+v_prob = tf.nn.sigmoid(tf.matmul(h_state, tf.transpose(W)) + vb)
+print ("p(vi∣h): ", v_prob)
+v_state = tf.nn.relu(tf.sign(v_prob - tf.random.uniform(tf.shape(v_prob))))
+print ("v probability states: ", v_state)
+```
 
 * ML0120EN-Eager_Execution.ipynb
 
