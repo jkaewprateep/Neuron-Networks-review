@@ -1019,6 +1019,8 @@ for i in range(filters):
 ```
 
 * ML0120EN-3.1-Reveiw-LSTM-basics.ipynb
+- 🐨🎁🎵🎶 Re-current artificial networks work the same as computation units that compute the same data output from the previous process and continue until now ```current process * process of t - 1```. The re-current artificial networks can be significant data of the current process and will be used in the next iteration as named re-current artificial networks. During the process performed by internal logical gates and selected algorithms the re-current artificial networks select to forget ( repeating data ), memorize ( significant data ), and operate previous data with current data. By multiple or more of iteration process the re-current artificial networks produced data from significant process.
+
 * ML0120EN-3.2-Review-LSTM-LanguageModelling.ipynb
 * ML0120EN-4.1-Review-RBMMNIST.ipynb
 * ML0120EN-Eager_Execution.ipynb
