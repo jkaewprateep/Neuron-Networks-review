@@ -1283,6 +1283,43 @@ print("Test Perplexity: %.3f" % test_perplexity)
 </picture>
 <br>Ref[11]: Markov chain model</br>
 
+#### Forward pass ####
+- 🐑💬 Example of the forward network ( layer ) with probability statistics and distribution domain. The sigmoid activation function works as a condition filter allowing a change of value in scopes to pass the same as the bandpass-filter. The linear rectangular activation filter determines the contrast between two nodes equivalent [ 0, 0 ].
+```
+X = tf.constant([[1.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0]], tf.float32)
+
+v_state = X
+print ("Input: ", v_state)
+
+h_bias = tf.constant([0.1, 0.1])
+print ("hb: ", h_bias)
+print ("w: ", W)
+
+# Calculate the probabilities of turning the hidden units on:
+h_prob = tf.nn.sigmoid(tf.matmul(v_state, W) + h_bias)  #probabilities of the hidden units
+print ("p(h|v): ", h_prob)
+
+# Draw samples from the distribution:
+h_state = tf.nn.relu(tf.sign(h_prob - tf.random.uniform(tf.shape(h_prob)))) #states
+print ("h0 states:", h_state)
+```
+
+#### Results ####
+```
+Input:  tf.Tensor([[1. 0. 0. 1. 0. 0. 0.]], shape=(1, 7), dtype=float32)
+hb:  tf.Tensor([0.1 0.1], shape=(2,), dtype=float32)
+w:  tf.Tensor(
+[[-1.7661804   0.4002081 ]
+ [ 2.4241676   0.60449976]
+ [-1.0282192  -0.63026726]
+ [-2.3212638   0.8039171 ]
+ [ 1.3049473   1.0474973 ]
+ [ 0.4494173   0.47940415]
+ [-0.64623755  0.6346767 ]], shape=(7, 2), dtype=float32)
+p(h|v):  tf.Tensor([[0.01820932 0.7865284 ]], shape=(1, 2), dtype=float32)
+h0 states: tf.Tensor([[0. 0.]], shape=(1, 2), dtype=float32)
+```
+
 
 * ML0120EN-Eager_Execution.ipynb
 
