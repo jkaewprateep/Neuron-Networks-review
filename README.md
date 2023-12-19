@@ -1022,7 +1022,7 @@ for i in range(filters):
 - 🐨🎁🎵🎶 Re-current artificial networks work the same as computation units that compute the same data output from the previous process and continue until now ```current process * process of t - 1```. The re-current artificial networks can be significant data of the current process and will be used in the next iteration as named re-current artificial networks. During the process performed by internal logical gates and selected algorithms the re-current artificial networks select to forget ( repeating data ), memorize ( significant data ), and operate previous data with current data. By multiple or more iteration processes the re-current artificial networks produced data from significant processes. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#basics-lstm-layer-in-object-in-image-detection )
 
 #### Explaining LSTM behavior in GAME AI object screen detection ####
-
+🐨🎁🎵🎶 IN a plain paper something moving creates a difference from stability, matrixes on the left handside are a simulation of number 2 moving from left to right, and on the right are the results. Where is number 2 located on a plain text { 1, 2, 3, 4, 5, 6, 7, 8, 9 } and how stable does it turn { { 0 }, { 0, 0 }, { 0, 0, 0} } continuing to mean same speed velocity because of no change in distance than previous significant will be forgotten.     
 ```
 [ 1 1 1 1 1 1 1 1 1 1 ] ==> [ 0 0 0 0 0 0 0 0 0 0 ]
 [ 1 2 1 1 1 1 1 1 1 1 ] ==> [ 0 1 1 1 1 0 0 1 0 ]
