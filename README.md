@@ -1266,6 +1266,8 @@ print("Test Perplexity: %.3f" % test_perplexity)
 - 🐑💬 Restricted BOLTZMANN machine when the significant values update evaluation with Eigaint significant values method, before using LSTM we can determine the value to forgetting by the significant values calculation from Eigant significant values. Restricted BOLTZMANN can perform work by SOFTMAX layer output when significant value updates because there are very small updates on each iteration but learning from significant values. Restricted BOLTZMANN and collaborative filtering [Jump To]( https://www.cs.utoronto.ca/~hinton/absps/netflixICML.pdf )
 
 #### Contrastive Divergence ####
+- 🐑💬 Simply explain why scientists think about the positive and negative side effects of an event from action because there is some study explaining stability and possibility same as contrastive divergence. This contrastive divergence or approximate maximum likelihood of two sequences used in the network training method, starting from similarity and learning of events or input can create branches of action that can determine possibility example as the Markov chain distribution.
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
