@@ -1091,7 +1091,7 @@ train_op = optimizer.apply_gradients(zip(grads, tvars))
 ```
 
 #### Create a custom LSTM model as class object ####
-🧸💬 Create a custom LSTM model as class object
+🧸💬 You can create a custom sequential model from the object class or tf.keras.Model class [Jump To]( https://www.tensorflow.org/api_docs/python/tf/keras/Model ) This is super easy you can removed the comment and use inherit class pattern.
 ```
 class PTBModel(object):
 
@@ -1111,7 +1111,6 @@ class PTBModel(object):
         ###############################################################################
         # Initializing the model using keras Sequential API  #
         ###############################################################################
-        
         self._model = tf.keras.models.Sequential()
         
         ####################################################################
@@ -1164,18 +1163,15 @@ class PTBModel(object):
         # Adding RNN layer to keras sequential API #
         ############################################        
         self._model.add(self._RNNlayer)
-        
         #self._model.add(tf.keras.layers.LSTM(hidden_size_l1,return_sequences=True,stateful=True))
         #self._model.add(tf.keras.layers.LSTM(hidden_size_l2,return_sequences=True))
-        
-        
+
         ####################################################################################################
         # Instantiating a Dense layer that connects the output to the vocab_size  and adding layer to model#
         ####################################################################################################
         self._dense = tf.keras.layers.Dense(self.vocab_size)
         self._model.add(self._dense)
- 
-        
+
         ####################################################################################################
         # Adding softmax activation layer and deriving probability to each class and adding layer to model #
         ####################################################################################################
@@ -1186,14 +1182,12 @@ class PTBModel(object):
         # Instantiating the stochastic gradient decent optimizer #
         ########################################################## 
         self._optimizer = tf.keras.optimizers.SGD(lr=self._lr, clipnorm=max_grad_norm)
-        
-        
+
         ##############################################################################
         # Compiling and summarizing the model stacked using the keras sequential API #
         ##############################################################################
         self._model.compile(loss=self.crossentropy, optimizer=self._optimizer)
         self._model.summary()
-
 
     def crossentropy(self,y_true, y_pred):
         return tf.keras.losses.sparse_categorical_crossentropy(y_true, y_pred)
