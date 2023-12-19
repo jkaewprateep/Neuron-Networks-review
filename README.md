@@ -1267,8 +1267,8 @@ print("Test Perplexity: %.3f" % test_perplexity)
 
 #### Contrastive Divergence ####
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
-  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/attention-networks.jpg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
 </picture>
 Ref[10]: Contrastive Divergence
 
