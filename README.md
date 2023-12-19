@@ -1421,7 +1421,7 @@ disable_eager_execution()
 ```
 
 #### None-eagle session running ####
-🐐💬 Create a session object and execute the thread this process is the same as the worker standard process or customizable. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#data-conditions )
+🐐💬 Create a session object and execute the thread this process is the same as the worker standard process or customizable. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#tf-variables-in-gradients-optimization )
 ```
 # Define variables
 a = tf.constant(np.array([1., 2., 3.]))
