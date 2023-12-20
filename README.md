@@ -1826,6 +1826,16 @@ del pred_thresh
 </p>
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
+🦭💬  There is no minion in the CRC list, please identify it.
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg">
+</picture>
+<br>Ref[27]: Objects detection </br>
+</p>
+My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
@@ -1862,6 +1872,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 |    25| IBM use-objectdetection-faster-r-cnn.ipynb | Geoffrey Hinton |
 |    26| IBM use-objectdetection-faster-r-cnn.ipynb | DL Guys |
 |    27| IBM use-objectdetection-faster-r-cnn.ipynb | Objects detection |
+|    28| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg | Minion |
 
 ## Applications ##
 
