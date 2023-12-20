@@ -1533,6 +1533,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
 </picture>
+Ref[12]: Sigmoid function example from Geeks for Geeks.
 
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
