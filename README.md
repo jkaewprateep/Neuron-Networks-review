@@ -1711,6 +1711,7 @@ Results["momentum 0"] = train(data_set, model, criterion, train_loader, optimize
 plot_decision_regions_3class(model, data_set)
 ```
 
+🐑💬 Some local values need to be updated by comparing local maxima for an efficient method.
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg">
@@ -1719,6 +1720,7 @@ plot_decision_regions_3class(model, data_set)
 <br>Ref[22]: SGD learning method </br>
 </p>
 
+🐑💬 The momentum method creates new updates of local maxima for performance. Polynomial function [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Polynomial function )
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg">
@@ -1906,4 +1908,10 @@ plot_decision_regions_3class(model, data_set)
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/optimization_problem.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/optimization_problem.jpg">
+</picture>
+
+#### Polynomial function ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/polynomial.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/polynomial.jpg">
 </picture>
