@@ -1683,7 +1683,7 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 
 
 * Training_a_Neural_Network_with_Momentum.ipynb
-- 🐑💬 Training neuron networks with momentum, some discovery of the truth is that some solutions need to compare neighbors to reveal the true value because they are not global present but they are significant in local represent and that should be included in our scope of interest because they are on the same domain presenting of development area we focus and we can work with the same variable domain.  
+- 🐑💬 Training neuron networks with momentum, some discovery of the truth is that some solutions need to compare neighbors to reveal the true value because they are not global present but they are significant in local representation and that should be included in our scope of interest because they are on the same domain presenting of development area we focus and we can work with the same variable domain. See it as two local minima by momentum finding [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#power-series )  
 
 
 
