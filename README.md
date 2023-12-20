@@ -1648,6 +1648,21 @@ m.result().numpy()
 logit = LogisticRegression(C=0.01, penalty='l1', solver='saga', tol=0.1, multi_class='multinomial')
 ```
 
+#### LogisticRegression model running ####
+🧸💬 Logit scores are the comparison of two lists which are x_test and y_test. Not recommended but this is a trick I give you to create un-supervised labels when you do not need to use a worksheet program or manual input by comparing of sample list with the target label list and training, you can find some secrete values are present by chance only for determine the networks can learn about all input categorize or they need to be more complex. 🎵🎶   🥺💬 Start I test with Piano notes music to see solution stability. ( re-mapping method )
+```
+# Training LogisticRegression model with data and label
+logit.fit(X_train_logistic, y_train)
+
+# Sample usage predicts Y value from input data X
+y_pred_logistic = logit.predict(X_test_logistic)
+
+# Evluation scores determination
+print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
+
+>>> Accuracy: 0.7638888888888888
+```
+
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
 * Data_Augmentation.ipynb
