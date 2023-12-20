@@ -1622,6 +1622,7 @@ m.result().numpy()
 🦤💬 I think they also do not understand precision too 🧸💬 Only practice we know. 👧💬 🎈 When nothing is the same they are on target or out of map. 🐨🎁🎵🎶 Who⁉️
 <br>Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError</br>
 
+🐐💬 Approximate one over three is the area of blue colour, this way we also can measure the network's performance learning too.
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_loss_accuracy.jpg">
@@ -1630,6 +1631,7 @@ m.result().numpy()
 <br>Ref[18]: XOR logic loss and accuracy value learning iterations </br>
 </p>
 
+🐐💬 They are alignment with SGD function and we can have a perpendicular SGD function for area scapes.
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_learning.jpg">
