@@ -1619,6 +1619,7 @@ m.result().numpy()
 
 >> precision 1.25
 ```
+🦤💬 I think they also do not understand precision too 🧸💬 Only practice we know.
 Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError
 
 
