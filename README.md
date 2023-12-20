@@ -1559,6 +1559,23 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 </p>	
 🐐💬 Rectify unit angle to identify output from target ratios.
 
+```
+# Create variable
+x = tf.constant(np.array([1., 2., 3.]))
+
+# Create a linear function object from torch.nn.Linear
+linear_function_1 = torch.nn.Linear(num_in, num_out)
+
+# Create a linear function object from torch.nn.Linear
+linear_function_2 = torch.nn.Linear(num_in, num_out)
+
+# Running a Sigmoid function object from torch.sigmoid
+sigmoid_function_result = torch.sigmoid(linear_function_1(x))
+
+# Running a ReLU function object from torch.relu
+relu_function_result = torch.relu(linear_function_2(x))
+```
+
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
