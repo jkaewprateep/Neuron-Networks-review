@@ -1649,7 +1649,7 @@ logit = LogisticRegression(C=0.01, penalty='l1', solver='saga', tol=0.1, multi_c
 ```
 
 #### LogisticRegression model running ####
-🧸💬 Logit scores are the comparison of two lists which are x_test and y_test. Not recommended but this is a trick I give you to create un-supervised labels when you do not need to use a worksheet program or manual input by comparing of sample list with the target label list and training, you can find some secrete values are present by chance only for determine the networks can learn about all input categorize or they need to be more complex. 🎵🎶   🥺💬 Start I test with Piano notes music to see solution stability. ( re-mapping method )
+🧸💬 Logit scores are the comparison of two lists which are x_test and y_test. Not recommended but this is a trick I give you to create un-supervised labels when you do not need to use a worksheet program or manual input by comparing of sample list with the target label list and training, you can find some secrete values are present by chance only for determine the networks can learn about all input categorize or they need to be more complex. 🎵🎶   🥺💬 Start I test with Piano notes music to see solution stability. ( re-mapping method ) [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#power-series )
 ```
 # Training LogisticRegression model with data and label
 logit.fit(X_train_logistic, y_train)
