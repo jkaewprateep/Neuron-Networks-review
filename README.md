@@ -1577,6 +1577,24 @@ sigmoid_function_result = torch.sigmoid(linear_function_1(x))
 relu_function_result = torch.relu(linear_function_2(x))
 ```
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid_relu_loss.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid_relu_loss.jpg">
+</picture>
+<br>Ref[15]: Sigmoid and ReLU training loss value iterations</br>
+</p>
+
+
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid_relu_accuracy.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid_relu_accuracy.jpg">
+</picture>
+<br>Ref[16]: Sigmoid and ReLU training accuray value iterations</br>
+</p>
+
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
@@ -1604,7 +1622,8 @@ relu_function_result = torch.relu(linear_function_2(x))
 |    12| https://www.geeksforgeeks.org/activation-functions | Activation function - Sigmoid |
 |    13| https://www.tensorflow.org/api_docs/python/tf/math/sigmoid | Sigmoid function in TensorFlow |
 |    14| https://www.geeksforgeeks.org/activation-functions | Activation function - ReLU |
-
+|    15| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training loss value iterations |
+|    16| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training accuray value iterations |
 
 ## Applications ##
 
