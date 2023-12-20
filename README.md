@@ -414,10 +414,12 @@ print( max( accuracy_list ) )
 - 🧸💬 Multi-perception networks can simulate logical gates but they require training or similar networks for the same function this is one weakness they are improved by LSTM recurrent networks that can learn with logical gate pre-build.
 - 🐐💬 Hopped fields or stars networks had working nodes as ring networks and in one of the node failures they copied the same function for the most appropriate selected number of nodes target.
 - 🦭💬 Bolzedmann machines, select one side of the network it can calculate of multiple works in the same time. The equivalent of microscopics create work output on another side.
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
 </picture>
+</p>
 <br>Ref[2]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
 
 #### Linear behavior of neurons networks node ####
@@ -1268,19 +1270,23 @@ print("Test Perplexity: %.3f" % test_perplexity)
 #### Contrastive Divergence ####
 - 🐑💬 Simply explain why scientists think about the positive and negative side effects of an event from action because there is some study explaining stability and possibility same as contrastive divergence. This contrastive divergence or approximate maximum likelihood of two sequences used in the network training method, starting from similarity and learning of events or input can create branches of action that can determine possibility example as the Markov chain distribution [Jump To]( https://www.researchgate.net/profile/Binu-Nair/publication/313556538 ) Possibility matrix [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#possibility-matrix )
 
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contrastive-divergence.jpg">
 </picture>
 <br>Ref[10]: Contrastive Divergence</br>
+</p>
 <br></br>
 
 - 🐑💬 Markov chain is a method for determining the likelihood of two or more sequences with the possibility of input events and action. This method is famous because of the traceability and adjustable of matrix rules it does not require a large calculation process by itself but the methods they feedback value into their calculation matrix table. Scientists solved this problem in time by using the Eigant significant value to reduce the sizes of the calculation matrix. It allowed the likelihood of approximate processes performed on significant rows or areas [Jump To]( https://math.stackexchange.com/questions/3397763/calculating-probability-in-markov-chains )
 
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
 </picture>
+</p>
 <br>Ref[11]: Markov chain model</br>
 
 #### Forward pass ####
@@ -1333,10 +1339,12 @@ print ("v probability states: ", v_state)
 
 #### Probability distribution ####
 - 🐑💬 I have an example of probability distribution as we can play AI Games with random functions and scopes by our learning pattern from the games, the same as in the experiment we added noise to input variables to prove our solution durability.
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappy_distance.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/flappy_distance.jpg">
 </picture>
+</p>
 
 #### Probability distribution implement ####
 ```
@@ -1385,10 +1393,12 @@ def random_action(  ):
 #### Objective function ####
 - 🐑💬 In the study materials if we understand the linear algorithm property we can use the summary function perform operation as a linear function with linear logarithms the example has  to explain about savings of the calculation process by the logarithm function. Look at the Eigant values method but now try to use the logarithms function in the small iterations it requires a lot of power because the results of the logarithms function are in small decimals numbers and the change of their values are very small but in larger scales, they are saved power of calculation because it updates on significant data learning and it does not required every time update as algorithm and differentiate the value of them are not significant. Weights response function [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#weight-response-calculation )
 
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/objective_function.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/objective_function.jpg">
 </picture>
+</p>
 
 - 🐑💬 The learning feature in study material is image transformation and you can safely communicate a message.
 
@@ -1404,10 +1414,12 @@ features = {
                 "2": tf.io.FixedLenFeature(shape=[ 183 * 275 * 3 ], dtype=tf.int64)
             })
 ```
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/JSON_image.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/JSON_image.jpg">
 </picture>
+</p>
 
 * ML0120EN-Eager_Execution.ipynb
 - 🐐💬 Eager execution is introduced in TF2.X to support the graph methodology and its improvement to support the backward algorithm by significant value estimation because of the similar nodes on the same iteration running should provide close value and this can estimate by Eigant significant values ```tf.executing_eagerly()```. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#re-enforcement-learning )
@@ -1529,16 +1541,20 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 * Neural_Network_ReLU_vs_Sigmoid.ipynb
 - 🐐💬 Rectified Linear Unit (ReLU) and Sigmoid activation functions are linear unit conditions approach for input to output as logits and linear exponential ( 🐑💬 It is a linear function scaled by the logarithm as ratios.
 
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
 </picture>
+</p>	
 <br>Ref[12]: Sigmoid function example from Geeks for Geeks.</br>
 
+<p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
 </picture>
+</p>	
 <br>Ref[14]: ReLU function example from Geeks for Geeks.</br>
 
 * Simple_Neural_Network_for_XOR.ipynb
