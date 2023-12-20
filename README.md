@@ -1616,6 +1616,8 @@ def accuracy(model, data_set):
 m = tf.keras.metrics.MeanRelativeError(normalizer=[1, 3, 2, 3])
 m.update_state([1, 3, 2, 3], [2, 4, 6, 8])
 m.result().numpy()
+
+>> precision 1.25
 ```
 Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError
 
