@@ -1526,7 +1526,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
         break  
 ```
 
-* Neural_Network_RELU_vs_Sigmoid.ipynb
+* Neural_Network_ReLU_vs_Sigmoid.ipynb
 - 🐐💬 Rectified Linear Unit (ReLU) and Sigmoid activation functions are linear unit conditions approach for input to output as logits and linear exponential ( 🐑💬 It is a linear function scaled by the logarithm as ratios.
 
 <picture>
@@ -1534,6 +1534,12 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
 </picture>
 Ref[12]: Sigmoid function example from Geeks for Geeks.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
+</picture>
+Ref[14]: ReLU function example from Geeks for Geeks.
 
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
@@ -1561,6 +1567,7 @@ Ref[12]: Sigmoid function example from Geeks for Geeks.
 |    11| https://math.stackexchange.com/questions/3397763/calculating-probability-in-markov-chains | Markov chain model |
 |    12| https://www.geeksforgeeks.org/python-tensorflow-math-sigmoid | Sigmoid function example |
 |    13| https://www.tensorflow.org/api_docs/python/tf/math/sigmoid | Sigmoid function in TensorFlow |
+|    14| https://www.geeksforgeeks.org/activation-functions | Activation function |
 
 
 ## Applications ##
