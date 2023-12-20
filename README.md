@@ -1685,6 +1685,47 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 * Training_a_Neural_Network_with_Momentum.ipynb
 - 🐑💬 Training neuron networks with momentum, some discovery of the truth is that some solutions need to compare neighbors to reveal the true value because they are not global present but they are significant in local representation and that should be included in our scope of interest because they are on the same domain presenting of development area we focus and we can work with the same variable domain. See it as two local minima by momentum finding [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#power-series )  
 
+#### Create sample model with SGD optimizer training ####
+```
+# Initialize a dictionary to contain the cost and accuracy
+# 🧸💬 Same as the historical record from Tensorflow and TensorFlow-Lite training
+Results = {"momentum 0": {"Loss": 0, "Accuracy:": 0}, "momentum 0.1": {"Loss": 0, "Accuracy:": 0}}
+
+# Train a model with 1 hidden layer and 50 neurons
+
+# Size of input layer is 2, hidden layer is 50, and output layer is 3
+# Our X values are x and y coordinates and this problem has 3 classes
+Layers = [2, 50, 3]
+# Create a model
+model = Net(Layers)
+learning_rate = 0.10
+# Create an optimizer that updates model parameters using the learning rate, gradient, and no momentum
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
+# Create a Data Loader for the training data with a batch size of 20
+train_loader = DataLoader(dataset=data_set, batch_size=20)
+# We create a criterion which will measure loss
+criterion = nn.CrossEntropyLoss()
+# Use the training function to train the model for 100 epochs
+Results["momentum 0"] = train(data_set, model, criterion, train_loader, optimizer, epochs=100)
+# Prints the dataset and decision boundaries
+plot_decision_regions_3class(model, data_set)
+```
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg">
+</picture>
+<br>Ref[22]: SGD learning method </br>
+</p>
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg">
+</picture>
+<br>Ref[23]: SGD with momentum=0.5 learning method </br>
+</p>
 
 
 * use-objectdetection-faster-r-cnn.ipynb
@@ -1718,6 +1759,8 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 |    19| IBM Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb | XOR logic learning graph |
 |    20| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confusion_matrix.jpg | Confusion Matrix |
 |    21| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg | SVM and logistic network results comparison |
+|    22| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg | SGD learning method |
+|    23| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg | SGD with momentum=0.5 learning method |
 
 ## Applications ##
 
