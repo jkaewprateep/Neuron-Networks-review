@@ -1741,8 +1741,10 @@ plot_decision_regions_3class(model, data_set)
 <br>Ref[23]: Geoffrey Hinton </br>
 </p>
 
+#### Use resnet50 to identify object identity ####
+🦭💬 Object identity identification recurrent convolution layers performance on this task and they are support of more objects they can detect with criteria.
 ```
-model_ = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
+model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
 
 COCO_INSTANCE_CATEGORY_NAMES = [
     '__background__', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus',
