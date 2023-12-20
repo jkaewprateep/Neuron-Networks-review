@@ -1731,6 +1731,53 @@ plot_decision_regions_3class(model, data_set)
 
 
 * use-objectdetection-faster-r-cnn.ipynb
+- 🦭💬 Object detection with faster R-CNN, recurrent convolution network is a unique network that has the property of power calculation sequence, input-output shape mapping, long-term memorization rates, and fast update significant when saving calculation power from convolution networks, arrays calculation and property of CNN networks. [Geoffrey Hinton]( https://www.utoronto.ca/news/ai-fuels-boom-innovation-investment-and-jobs-canada-report-says )
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton.jpg">
+</picture>
+<br>Ref[23]: Geoffrey Hinton </br>
+</p>
+
+```
+model_ = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
+
+COCO_INSTANCE_CATEGORY_NAMES = [
+    '__background__', 'person', 'bicycle', 'car', 'motorcycle', 'airplane', 'bus',
+    'train', 'truck', 'boat', 'traffic light', 'fire hydrant', 'N/A', 'stop sign',
+    'parking meter', 'bench', 'bird', 'cat', 'dog', 'horse', 'sheep', 'cow',
+    'elephant', 'bear', 'zebra', 'giraffe', 'N/A', 'backpack', 'umbrella', 'N/A', 'N/A',
+    'handbag', 'tie', 'suitcase', 'frisbee', 'skis', 'snowboard', 'sports ball',
+    'kite', 'baseball bat', 'baseball glove', 'skateboard', 'surfboard', 'tennis racket',
+    'bottle', 'N/A', 'wine glass', 'cup', 'fork', 'knife', 'spoon', 'bowl',
+    'banana', 'apple', 'sandwich', 'orange', 'broccoli', 'carrot', 'hot dog', 'pizza',
+    'donut', 'cake', 'chair', 'couch', 'potted plant', 'bed', 'N/A', 'dining table',
+    'N/A', 'N/A', 'toilet', 'N/A', 'tv', 'laptop', 'mouse', 'remote', 'keyboard', 'cell phone',
+    'microwave', 'oven', 'toaster', 'sink', 'refrigerator', 'N/A', 'book',
+    'clock', 'vase', 'scissors', 'teddy bear', 'hair drier', 'toothbrush'
+]
+
+transform = transforms.Compose([transforms.ToTensor()])
+img = transform(image)
+pred = model([img])
+
+pred[0]['labels']
+>>> tensor([ 1, 15, 84,  2, 35, 84, 62,  2,  7, 84, 82, 84, 35, 84,  2, 35, 15, 42,
+         2, 82, 62, 84, 62, 84,  7,  2, 84,  7,  2,  9, 84, 84,  2, 84,  2])
+
+pred[0]['scores']
+>>> tensor([0.9995, 0.3495, 0.2695, 0.2556, 0.2466, 0.1929, 0.1861, 0.1766, 0.1593,
+        0.1528, 0.1484, 0.1392, 0.1295, 0.1290, 0.1249, 0.1208, 0.1094, 0.1026,
+        0.1023, 0.1019, 0.0846, 0.0827, 0.0826, 0.0794, 0.0785, 0.0738, 0.0735,
+        0.0713, 0.0669, 0.0622, 0.0595, 0.0578, 0.0575, 0.0553, 0.0520])
+
+index=pred[0]['labels'][0].item()
+COCO_INSTANCE_CATEGORY_NAMES[index]
+>>> 'person'
+```
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
@@ -1763,6 +1810,7 @@ plot_decision_regions_3class(model, data_set)
 |    21| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg | SVM and logistic network results comparison |
 |    22| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg | SGD learning method |
 |    23| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg | SGD with momentum=0.5 learning method |
+|    24| https://www.utoronto.ca/news/ai-fuels-boom-innovation-investment-and-jobs-canada-report-says | Geoffrey Hinton |
 
 ## Applications ##
 
