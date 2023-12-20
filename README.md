@@ -1838,6 +1838,17 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
+🦭💬  There is no cat echo in the CRC list, please identify it.
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg">
+</picture>
+<br>Ref[27]: Objects detection </br>
+</p>
+
+My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
