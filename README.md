@@ -1808,7 +1808,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 #### Object detection ####
-🦭💬 Implement of number of images at once
+🦭💬 Implement of number of objects at once they are sorted by threshold value.
 ```
 img = transform(image)
 pred = model([img])
