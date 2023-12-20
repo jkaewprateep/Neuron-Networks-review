@@ -1886,6 +1886,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 |    26| IBM use-objectdetection-faster-r-cnn.ipynb | DL Guys |
 |    27| IBM use-objectdetection-faster-r-cnn.ipynb | Objects detection |
 |    28| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg | Minion |
+|    29| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg | My cat Echo |
 
 ## Applications ##
 
