@@ -1738,7 +1738,7 @@ plot_decision_regions_3class(model, data_set)
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton.jpg">
 </picture>
-<br>Ref[23]: Geoffrey Hinton </br>
+<br>Ref[24]: Geoffrey Hinton </br>
 </p>
 
 #### Use resnet50 to identify object identity ####
@@ -1781,6 +1781,20 @@ COCO_INSTANCE_CATEGORY_NAMES[index]
 >>> 'person'
 ```
 
+#### Draw rectangular on target image label by prediction ####
+```
+pred_class=get_predictions(pred,objects="person")
+draw_box(pred_class, img)
+```
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton_boxed.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/Geoffrey%20Hinton_boxed.jpg">
+</picture>
+<br>Ref[25]: Geoffrey Hinton </br>
+</p>
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
@@ -1814,6 +1828,7 @@ COCO_INSTANCE_CATEGORY_NAMES[index]
 |    22| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_learning.jpg | SGD learning method |
 |    23| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg | SGD with momentum=0.5 learning method |
 |    24| https://www.utoronto.ca/news/ai-fuels-boom-innovation-investment-and-jobs-canada-report-says | Geoffrey Hinton |
+|    25| IBM use-objectdetection-faster-r-cnn.ipynb | Geoffrey Hinton |
 
 ## Applications ##
 
