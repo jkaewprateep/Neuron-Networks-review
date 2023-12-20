@@ -1622,6 +1622,21 @@ m.result().numpy()
 🦤💬 I think they also do not understand precision too 🧸💬 Only practice we know. 👧💬 🎈 When nothing is the same they are on target or out of map. 🐨🎁🎵🎶 Who⁉️
 <br>Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError</br>
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_loss_accuracy.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_loss_accuracy.jpg">
+</picture>
+<br>Ref[18]: XOR logic loss and accuracy value learning iterations </br>
+</p>
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_learning.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xor_learning.jpg">
+</picture>
+<br>Ref[19]: XOR logic learning graph </br>
+</p>
 
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
