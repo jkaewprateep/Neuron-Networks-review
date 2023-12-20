@@ -1557,6 +1557,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 </picture>
 <br>Ref[14]: ReLU function example from Geeks for Geeks.</br>
 </p>	
+
 🐐💬 Rectify unit angle to identify output from target ratios. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#tf-variables-in-gradients-optimization )
 
 ```
