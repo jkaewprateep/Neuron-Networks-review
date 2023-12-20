@@ -1720,7 +1720,7 @@ plot_decision_regions_3class(model, data_set)
 <br>Ref[22]: SGD learning method </br>
 </p>
 
-🐑💬 The momentum method creates new updates of local maxima for performance. Polynomial function [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Polynomial function )
+🐑💬 The momentum method creates new updates of local maxima for performance. Polynomial function [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Polynomial-function )
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg">
