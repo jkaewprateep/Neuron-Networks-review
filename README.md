@@ -1598,6 +1598,8 @@ relu_function_result = torch.relu(linear_function_2(x))
 🐐💬 Non-complex or non-natural function, the rectangular unit is just right to identify of input pattern within small iterations but longer and more complex require memory for learning. Further the ```nn.CrossEntropyLoss()``` is clearly can identify as red and white colours. There are benefits of feedback ReLU against the environment and Sigmoid against real-complex problems this does not mean one is better than another but supporting of a rocket launcher can be built with Sigmoid but lunch with ReLU. ( 🦭💬 Sometimes performance also included clearly identify )
 
 * Simple_Neural_Network_for_XOR.ipynb
+- 🐐💬 Nuerons Networks with One Hidden Layer ( Noisy XOR ) [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )
+
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
