@@ -1854,3 +1854,9 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/reinforcement_learning.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/reinforcement_learning.jpg">
 </picture>
+
+#### Optimization problem ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/optimization_problem.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/optimization_problem.jpg">
+</picture>
