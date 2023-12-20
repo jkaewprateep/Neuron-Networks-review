@@ -419,8 +419,8 @@ print( max( accuracy_list ) )
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/xenonstack-neural-network-architecture-3-1-1.webp">
 </picture>
-</p>
 <br>Ref[2]: https://www.xenonstack.com/blog/artificial-neural-network-applications</br>
+</p>
 
 #### Linear behavior of neurons networks node ####
 🐑💬 Nueron networks are supposed to be complex and vary by multiple variables but the calculation will be too difficult and we cannot prove of its results behavior. For larger networks, we simulate each node's present value of node bias and weight Y = mx + C. This method allowed us to calculate the entropy network value at one edge of the network, from action to network until reaching one edge of the network presents a label or target function as a result. You can initial value of the weight and bias or use pre-trained values that are built with the commercial logic board and electronics path. Arduino and many logic boards make training easier and they build in pre-trained networks if you select the correct path and method.  
@@ -1286,8 +1286,8 @@ print("Test Perplexity: %.3f" % test_perplexity)
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/markov-chain.jpg">
 </picture>
-</p>
 <br>Ref[11]: Markov chain model</br>
+</p>
 
 #### Forward pass ####
 - 🐑💬 Example of the forward network ( layer ) with probability statistics and distribution domain. The sigmoid activation function works as a condition filter allowing a change of value in scopes to pass the same as the bandpass-filter. The linear rectangular activation filter determines the contrast between two nodes equivalent [ 0, 0 ]. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#power-series )
@@ -1546,16 +1546,16 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
 </picture>
-</p>	
 <br>Ref[12]: Sigmoid function example from Geeks for Geeks.</br>
+</p>	
 
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/RELU.jpg">
 </picture>
-</p>	
 <br>Ref[14]: ReLU function example from Geeks for Geeks.</br>
+</p>	
 
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
