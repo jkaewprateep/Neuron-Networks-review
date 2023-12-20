@@ -1643,7 +1643,7 @@ m.result().numpy()
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 - 🧸💬 Support Vector Machine and Vanilla Linear Classifier, in this exercise IBM talking about linear regression with output layer norminal domain. The exercise compared two domains in three examples. Support vector machine can mean vector images input learning machine for example the categorize problem in the example she performed SVG with gradient alignment lines but she found the secrete of singular value decompositions ```s, u, v = svd(a)```  ```🦭💬 A Hamm~ what is left singular vector, right singular vector and singular with shape⁉️ ``` Ref[18]
 
-🧸💬 Inputs are unique and connect directly compare one point to one point same as our hair colours but regularization helps with this kind of problem by reducing some complex settings from the input that is not necessary with a specific process for possible operation and reducing none required repeating task.
+🧸💬 Inputs are unique and connect directly compare one point to one point same as our hair colours but regularization helps with this kind of problem by reducing some complex settings from the input that is not necessary with a specific process for possible operation and reducing none required repeating task. 👧💬 🎈 Simply explain as tolerance penalty games until acceptable rates.
 ```
 logit = LogisticRegression(C=0.01, penalty='l1', solver='saga', tol=0.1, multi_class='multinomial')
 ```
