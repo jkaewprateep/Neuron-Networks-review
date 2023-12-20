@@ -1529,10 +1529,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 * Neural_Network_ReLU_vs_Sigmoid.ipynb
 - 🐐💬 Rectified Linear Unit (ReLU) and Sigmoid activation functions are linear unit conditions approach for input to output as logits and linear exponential ( 🐑💬 It is a linear function scaled by the logarithm as ratios.
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
-  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
-</picture>
+
 <br>Ref[12]: Sigmoid function example from Geeks for Geeks.</br>
 
 <picture>
