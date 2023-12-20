@@ -1619,7 +1619,7 @@ m.result().numpy()
 
 >> precision 1.25
 ```
-🦤💬 I think they also do not understand precision too 🧸💬 Only practice we know.
+🦤💬 I think they also do not understand precision too 🧸💬 Only practice we know. 👧💬 🎈 When nothing is the same they are on target or out of map. 🐨🎁🎵🎶 Who⁉️
 <br>Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError</br>
 
 
