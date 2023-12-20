@@ -1824,6 +1824,7 @@ del pred_thresh
 </picture>
 <br>Ref[27]: Objects detection </br>
 </p>
+
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 🦭💬  There is no minion in the CRC list, please identify it.
@@ -1834,6 +1835,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 </picture>
 <br>Ref[27]: Objects detection </br>
 </p>
+
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 * Data_Augmentation.ipynb
