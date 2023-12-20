@@ -1585,7 +1585,7 @@ relu_function_result = torch.relu(linear_function_2(x))
 <br>Ref[15]: Sigmoid and ReLU training loss value iterations</br>
 </p>
 
-
+🐐💬 Rectangular unit is growing faster and steadily for natural function as their behavior when Sigmoid function has a large learning area slower grow is benefit when learning of specific tasks or pattern because it memorizes benefits.
 
 <p align="center" width="100%">
 <picture>
