@@ -1610,6 +1610,15 @@ def accuracy(model, data_set):
     return np.mean(data_set.y.view(-1).numpy() == (model(data_set.x)[:, 0] > 0.5).numpy())
 ```
 
+#### Hint for some idea with mean relative error ####
+* My computer still not recovery but see my example and ideas [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )
+```
+m = tf.keras.metrics.MeanRelativeError(normalizer=[1, 3, 2, 3])
+m.update_state([1, 3, 2, 3], [2, 4, 6, 8])
+m.result().numpy()
+```
+Ref[17]: https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError
+
 
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
@@ -1639,6 +1648,7 @@ def accuracy(model, data_set):
 |    14| https://www.geeksforgeeks.org/activation-functions | Activation function - ReLU |
 |    15| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training loss value iterations |
 |    16| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training accuray value iterations |
+|    17| https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError | Mean relative error for accuracy matric |
 
 ## Applications ##
 
