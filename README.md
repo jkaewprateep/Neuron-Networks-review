@@ -1641,6 +1641,12 @@ m.result().numpy()
 </p>
 
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
+- 🧸💬 Support Vector Machine and Vanilla Linear Classifier, in this exercise IBM talking about linear regression with output layer norminal domain. The exercise compared two domains in three examples. Support vector machine can mean vector images input learning machine for example the categorize problem in the example she performed SVG with gradient alignment lines but she found the secrete of singular value decompositions ```s, u, v = svd(a)``` 
+
+```
+logit = LogisticRegression(C=0.01, penalty='l1', solver='saga', tol=0.1, multi_class='multinomial')
+```
+
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
 * Data_Augmentation.ipynb
@@ -1669,6 +1675,7 @@ m.result().numpy()
 |    15| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training loss value iterations |
 |    16| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training accuray value iterations |
 |    17| https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError | Mean relative error for accuracy matric |
+|    18| https://www.tensorflow.org/api_docs/python/tf/linalg/svd | Singular value decomposition |
 
 ## Applications ##
 
