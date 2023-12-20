@@ -1611,7 +1611,7 @@ def accuracy(model, data_set):
 ```
 
 #### Hint for some idea with mean relative error ####
-* My computer still not recovery but see my example and ideas [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )
+* My computer still not recovery but see my example and ideas [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation ) 💻💩💩
 ```
 m = tf.keras.metrics.MeanRelativeError(normalizer=[1, 3, 2, 3])
 m.update_state([1, 3, 2, 3], [2, 4, 6, 8])
