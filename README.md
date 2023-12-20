@@ -1795,7 +1795,7 @@ draw_box(pred_class, img)
 <br>Ref[25]: Geoffrey Hinton </br>
 </p>
 
-* My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-region )
+My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-region )
 
 <p align="center" width="100%">
 <picture>
@@ -1805,7 +1805,26 @@ draw_box(pred_class, img)
 <br>Ref[26]: DL Guys </br>
 </p>
 
-* My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
+My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
+
+#### Object detection ####
+🦭💬 Implement of number of images at once
+```
+img = transform(image)
+pred = model([img])
+pred_thresh=get_predictions(pred,threshold=0.97)
+draw_box(pred_thresh,img,rect_th= 1,text_size= 1,text_th=1)
+del pred_thresh
+```
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection_2.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/object_detection_2.jpg">
+</picture>
+<br>Ref[27]: Objects detection </br>
+</p>
+My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
@@ -1842,6 +1861,7 @@ draw_box(pred_class, img)
 |    24| https://www.utoronto.ca/news/ai-fuels-boom-innovation-investment-and-jobs-canada-report-says | Geoffrey Hinton |
 |    25| IBM use-objectdetection-faster-r-cnn.ipynb | Geoffrey Hinton |
 |    26| IBM use-objectdetection-faster-r-cnn.ipynb | DL Guys |
+|    27| IBM use-objectdetection-faster-r-cnn.ipynb | Objects detection |
 
 ## Applications ##
 
