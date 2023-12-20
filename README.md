@@ -1600,6 +1600,17 @@ relu_function_result = torch.relu(linear_function_2(x))
 * Simple_Neural_Network_for_XOR.ipynb
 - 🐐💬 Nuerons Networks with One Hidden Layer ( Noisy XOR ) [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#games-simulation )
 
+#### Define Accuracy scores calculation by opposite rectangular of the square area ####
+```
+# Calculate the accuracy
+
+def accuracy(model, data_set):
+    # Rounds prediction to nearest integer 0 or 1
+    # Checks if prediction matches the actual values and returns accuracy rate
+    return np.mean(data_set.y.view(-1).numpy() == (model(data_set.x)[:, 0] > 0.5).numpy())
+```
+
+
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
