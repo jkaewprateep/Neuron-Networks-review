@@ -1672,7 +1672,7 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 <br>Ref[20]: Confusion Matrix </br>
 </p>
 
-🧸💬 Mediant and errors are not escapes of statistics results, high errors may perform of best scouts but bad category. In L1 or global normalize is high tolerance while internal normalize is less tolerance than L1. High tolerance is cost-effective to develop when regression selects of good sample to develop this is shown by statistics and must be true. 👧💬 🎈 They are both global and normalized higher develop create better results but cannot create good statistics  0.85 > 0.80 with 15% variance better than 0.90 > 0.95 with 9% variance ⁉️ 🐐💬 Yes if it is not human this is handwriting mapping logistics problem.     
+🧸💬 Mediant and errors are not escapes of statistics results, high errors may perform of best scouts but bad category. In L1 or global normalize is high tolerance while internal normalize is less tolerance than L1. High tolerance is cost-effective to develop when regression selects of good sample to develop this is shown by statistics and must be true. 👧💬 🎈 They are both global and normalized higher develop create better results but cannot create good statistics  0.85 > 0.80 with 15% variance better than 0.90 > 0.95 with 9% variance ⁉️ 🐐💬 Yes if it is not human this is a handwriting mapping logistics problem. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#optimization-problem )     
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg">
