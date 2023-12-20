@@ -1595,7 +1595,7 @@ relu_function_result = torch.relu(linear_function_2(x))
 <br>Ref[16]: Sigmoid and ReLU training accuray value iterations</br>
 </p>
 
-🐐💬 Non-complex or non-natural function, the rectangular unit is just right to identify of input pattern within small iterations but longer and more complex require memory for learning. Further the ```nn.CrossEntropyLoss()``` is clearly can identify as red and white colours. There are benefits of feedback ReLU against the environment and Sigmoid against real-complex problems this does not mean one is better than another but supporting of a rocket luncher can build with Sigmoid but lunch with ReLU. 
+🐐💬 Non-complex or non-natural function, the rectangular unit is just right to identify of input pattern within small iterations but longer and more complex require memory for learning. Further the ```nn.CrossEntropyLoss()``` is clearly can identify as red and white colours. There are benefits of feedback ReLU against the environment and Sigmoid against real-complex problems this does not mean one is better than another but supporting of a rocket launcher can be built with Sigmoid but lunch with ReLU. ( 🦭💬 Sometimes performance also included clearly identify )
 
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
