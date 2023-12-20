@@ -1795,6 +1795,8 @@ draw_box(pred_class, img)
 <br>Ref[25]: Geoffrey Hinton </br>
 </p>
 
+* My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-region )
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
