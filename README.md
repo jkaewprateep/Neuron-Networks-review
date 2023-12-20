@@ -1672,6 +1672,14 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 </p>
 
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg">
+</picture>
+<br>Ref[21]: SVM and logistic network results comparison </br>
+</p>
+
 
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
@@ -1704,6 +1712,7 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 |    18| https://www.tensorflow.org/api_docs/python/tf/linalg/svd | Singular value decomposition |
 |    19| IBM Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb | XOR logic learning graph |
 |    20| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confusion_matrix.jpg | Confusion Matrix |
+|    21| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/logistic_svm.jpg | SVM and logistic network results comparison |
 
 ## Applications ##
 
