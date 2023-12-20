@@ -1539,7 +1539,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 ```
 
 * Neural_Network_ReLU_vs_Sigmoid.ipynb
-- 🐐💬 Rectified Linear Unit (ReLU) and Sigmoid activation functions are linear unit conditions approach for input to output as logits and linear exponential ( 🐑💬 It is a linear function scaled by the logarithm as ratios.
+- 🐐💬 Rectified Linear Unit (ReLU) and Sigmoid activation functions are linear unit conditions approach for input to output as logits and linear exponential ( 🐑💬 It is a linear function scaled by the logarithm as ratios )
 
 <p align="center" width="100%">
 <picture>
@@ -1547,7 +1547,8 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sigmoid.jpg">
 </picture>
 <br>Ref[12]: Sigmoid function example from Geeks for Geeks.</br>
-</p>	
+</p>
+🐐💬 Slowly change its output value until approx [𝝅 / 2 to 𝝅 / 4] creating significant value that can be determined with requirements.
 
 <p align="center" width="100%">
 <picture>
@@ -1556,6 +1557,7 @@ for x, y in torch.utils.data.DataLoader(dataset=validation_dataset, batch_size=1
 </picture>
 <br>Ref[14]: ReLU function example from Geeks for Geeks.</br>
 </p>	
+🐐💬 Rectify unit angle to identify output from target ratios.
 
 * Simple_Neural_Network_for_XOR.ipynb
 * Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb
