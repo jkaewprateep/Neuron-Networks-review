@@ -1742,7 +1742,8 @@ plot_decision_regions_3class(model, data_set)
 </p>
 
 #### Use resnet50 to identify object identity ####
-🦭💬 Object identity identification recurrent convolution layers performance on this task and they are support of more objects they can detect with criteria.
+🦭💬 Object identity identification recurrent convolution layers performance on this task and they are support of more objects they can detect with criteria. 
+Image region [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#Image-region ), Image masking [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-masking ) image-centre-detection [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 ```
 model = torchvision.models.detection.fasterrcnn_resnet50_fpn(pretrained=True)
 
@@ -1964,4 +1965,10 @@ COCO_INSTANCE_CATEGORY_NAMES[index]
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/polynomial.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/polynomial.jpg">
+</picture>
+
+#### Image region ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contour_image_region.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contour_image_region.jpg">
 </picture>
