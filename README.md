@@ -1797,6 +1797,16 @@ draw_box(pred_class, img)
 
 * My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-region )
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/DLGuys.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/DLGuys.jpg">
+</picture>
+<br>Ref[26]: DL Guys </br>
+</p>
+
+* My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
+
 * Data_Augmentation.ipynb
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
@@ -1831,6 +1841,7 @@ draw_box(pred_class, img)
 |    23| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/sgd_momentum.jpg | SGD with momentum=0.5 learning method |
 |    24| https://www.utoronto.ca/news/ai-fuels-boom-innovation-investment-and-jobs-canada-report-says | Geoffrey Hinton |
 |    25| IBM use-objectdetection-faster-r-cnn.ipynb | Geoffrey Hinton |
+|    26| IBM use-objectdetection-faster-r-cnn.ipynb | DL Guys |
 
 ## Applications ##
 
