@@ -1663,6 +1663,16 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 >>> Accuracy: 0.7638888888888888
 ```
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confusion_matrix.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confusion_matrix.jpg">
+</picture>
+<br>Ref[20]: Confusion Matrix </br>
+</p>
+
+
+
 * Training_a_Neural_Network_with_Momentum.ipynb
 * use-objectdetection-faster-r-cnn.ipynb
 * Data_Augmentation.ipynb
@@ -1692,6 +1702,8 @@ print("Accuracy: "+str(logit.score(X_test_logistic, y_test)))
 |    16| IBM Neural_Network_RELU_vs_Sigmoid.ipynb | Sigmoid and ReLU training accuray value iterations |
 |    17| https://www.tensorflow.org/api_docs/python/tf/keras/metrics/MeanRelativeError | Mean relative error for accuracy matric |
 |    18| https://www.tensorflow.org/api_docs/python/tf/linalg/svd | Singular value decomposition |
+|    19| IBM Support_Vector_Machines_vs_Vanilla_Linear_Classifier.ipynb | XOR logic learning graph |
+|    20| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/confusion_matrix.jpg | Confusion Matrix |
 
 ## Applications ##
 
