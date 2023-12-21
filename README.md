@@ -1855,7 +1855,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 #### Image augmentation with random rotation images ####
 👧💬 🎈 Image augmentation can be performed by random noise, Gaussian noise, pattern matrix, phaseshift, rotations, colours, saturate and contrast, image auxiliary, etc. Image velocity [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-velocity ) 
 
-🐑💬 Camera wireless sign when they control of auto shutter camera from broadcasting the old technology but they had challenges all the time. 
+🐑💬 Camera wireless sign when they control of auto shutter camera from broadcasting the old technology but they had challenges all the time. ( 👧💬 🎈 Communication is distraction because target to known the source but when there are many source they need to manage by single source )
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
@@ -1878,10 +1878,22 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
 </picture>
-<br>Ref[30]: Cost and accuracy graph </br>
+<br>Ref[30]: Image with learning weights </br>
 </p>
 
 * Digit_Classification_with_Softmax.ipynb
+- 🐨🎁🎵🎶 Image classification with softmax layer, the softmax layer creates significant data to output layer results or logits at the last layer for sorting and identifying of most relevant image labels from the prediction results. [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-masking )
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_masking_2.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_masking_2.jpg">
+</picture>
+<br>Ref[31]: Cost and accuracy graph </br>
+</p>
+
+🐨🎁🎵🎶 Person, objects, reflection, and angle can use classification method and sometimes we can perform calculations such as image's largest angle or object shape determination when finding the response shape with the most area or colour side 💍
+
 * FinalProject.ipynb
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
 * AI Capstone Project with Deep Learning.ipynb
@@ -1919,6 +1931,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 |    28| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg | Minion |
 |    29| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg | My cat Echo |
 |    30| IBM Data_Augmentation.ipynb | Cost and accuracy graph |
+|    31| IBM Digit_Classification_with_Softmax.ipynb | Image with learning weights |
 
 ## Applications ##
 
