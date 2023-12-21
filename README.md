@@ -1855,7 +1855,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 #### Image augmentation with random rotation images ####
 👧💬 🎈 Image augmentation can be performed by random noise, Gaussian noise, pattern matrix, phaseshift, rotations, colours, saturate and contrast, image auxiliary, etc. Image velocity [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-velocity ) 
 
-🐑💬 Camera wireless sign when they control of auto shutter camera from broadcasting the old technology but they had challenges all the time. https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg
+🐑💬 Camera wireless sign when they control of auto shutter camera from broadcasting the old technology but they had challenges all the time. 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
