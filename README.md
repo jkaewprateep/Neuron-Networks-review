@@ -1925,6 +1925,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 * 🐨🎁🎵🎶 Final project create model and training.
   
 * AI Capstone Project with Deep Learning.ipynb
+* * 🐨🎁🎵🎶 Panda library and data augmentation ( manipulation )
 
 ## References ##
 | Number of references | Target sources | Description |
