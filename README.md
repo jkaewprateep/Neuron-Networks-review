@@ -1857,7 +1857,8 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 ```
 # Creating a group of transformations to created a rotated dataset
 # Resizes the images, randomly rotates it, and then converts it to a tensor
-compose_rotate = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),transforms.RandomAffine(45), transforms.ToTensor()])
+compose_rotate = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)),transforms.RandomAffine(45),
+	transforms.ToTensor()])
 
 # Creating a group of transformations to created a non rotated dataset
 # Resizes the images then converts it to a tensor
