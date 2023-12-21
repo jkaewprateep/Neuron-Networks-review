@@ -1877,7 +1877,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
 </picture>
-<br>Ref[30]: Cost and accuray graph </br>
+<br>Ref[30]: Cost and accuracy graph </br>
 </p>
 
 * Digit_Classification_with_Softmax.ipynb
@@ -1917,7 +1917,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 |    27| IBM use-objectdetection-faster-r-cnn.ipynb | Objects detection |
 |    28| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg | Minion |
 |    29| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg | My cat Echo |
-|    30| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg | Cost and accuray graph |
+|    30| IBM Data_Augmentation.ipynb | Cost and accuracy graph |
 
 ## Applications ##
 
