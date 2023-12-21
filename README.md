@@ -1872,6 +1872,14 @@ compose_rotate = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE))
 compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), transforms.ToTensor()])
 ```
 
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
+</picture>
+<br>Ref[30]: Cost and accuray graph </br>
+</p>
+
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
@@ -1909,6 +1917,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 |    27| IBM use-objectdetection-faster-r-cnn.ipynb | Objects detection |
 |    28| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg | Minion |
 |    29| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg | My cat Echo |
+|    30| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg | Cost and accuray graph |
 
 ## Applications ##
 
