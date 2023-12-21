@@ -1872,6 +1872,7 @@ compose_rotate = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE))
 compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), transforms.ToTensor()])
 ```
 
+👧💬 🎈 By improvement process the area and cross-section of loss estimation value from optimization and accuracy is the current efficient value and new efficient value we need to determine when we try to shift the cross-section to the left side by the horizontal axis but we required a high area of the graph then the higher area with less epoch where we select when we perform model performance improvement.
 <p align="center" width="100%">
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/cost-accuracy-graph.jpg">
