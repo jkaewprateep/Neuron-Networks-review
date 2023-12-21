@@ -1850,6 +1850,10 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 * Data_Augmentation.ipynb
+- 👧💬 🎈 Data augmentation is to create dimension alignment for comparison from data and some people use them to create new data similar original for the network training process. In some applications, they can use phase images or concatenate continue images for data augmentation, networks training process learning better with continuous inputs but this method uses a lot of time and repeating tasks they are using hundreds of images with multiple augmentations. ( 🐑💬 mirror images are not reflection images only but continuous images reflection that perform faster learning to output )     
+
+
+
 * Digit_Classification_with_Softmax.ipynb
 * FinalProject.ipynb
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
