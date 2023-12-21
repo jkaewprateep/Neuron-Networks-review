@@ -1922,7 +1922,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 </p>
 
 * FinalProject.ipynb
-* Final project create model and training.
+* 🐨🎁🎵🎶 Final project create model and training.
   
 * AI Capstone Project with Deep Learning.ipynb
 
