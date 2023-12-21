@@ -1850,10 +1850,17 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
 
 * Data_Augmentation.ipynb
-- 👧💬 🎈 Data augmentation is to create dimension alignment for comparison from data and some people use them to create new data similar original for the network training process. In some applications, they can use phase images or concatenate continue images for data augmentation, networks training process learning better with continuous inputs but this method uses a lot of time and repeating tasks they are using hundreds of images with multiple augmentations. ( 🐑💬 mirror images are not reflection images only but continuous images reflection that perform faster learning to output )     
+- 👧💬 🎈 Data augmentation is to create dimension alignment for comparison from data and some people use them to create new data similar original for the network training process. In some applications, they can use phase images or concatenate continue images for data augmentation, networks training process learning better with continuous inputs but this method uses a lot of time and repeating tasks they are using hundreds of images with multiple augmentations. 🐑💬 mirror images are not reflection images only but continuous images reflection that perform faster learning to output
 
 #### Image augmentation with random rotation images ####
-👧💬 🎈 Image augmentation can be performed by random noise, Gaussian noise, pattern matrix, phaseshift, rotations, colours, saturate and contrast, image auxiliary, etc. Image velocity [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-velocity )
+👧💬 🎈 Image augmentation can be performed by random noise, Gaussian noise, pattern matrix, phaseshift, rotations, colours, saturate and contrast, image auxiliary, etc. Image velocity [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#image-velocity ) 
+
+🐑💬 Camera wireless sign when they control of auto shutter camera from broadcasting the old technology but they had challenges all the time. https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/camera-wireless.jpg">
+</picture>
+
 ```
 # Creating a group of transformations to created a rotated dataset
 # Resizes the images, randomly rotates it, and then converts it to a tensor
