@@ -1960,6 +1960,9 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 |    29| https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg | My cat Echo |
 |    30| IBM Data_Augmentation.ipynb | Cost and accuracy graph |
 |    31| IBM Digit_Classification_with_Softmax.ipynb | Image with learning weights |
+|    32| IBM Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb | learning rates 0.01 |
+|    33| IBM Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb | learning rates 1.00 |
+|    34| IBM Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb | learning rates 1.00 |
 
 ## Applications ##
 
