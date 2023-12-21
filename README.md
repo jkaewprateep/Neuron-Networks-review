@@ -1894,8 +1894,36 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 
 🐨🎁🎵🎶 Person, objects, reflection, and angle can use classification method and sometimes we can perform calculations such as image's largest angle or object shape determination when finding the response shape with the most area or colour side 💍
 
-* FinalProject.ipynb
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
+- 
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area_2.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area_2.jpg">
+</picture>
+<br>Ref[32]: optimizer = torch.optim.SGD(model.parameters(), lr = .01) </br>
+</p>
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area_3.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area_3.jpg">
+</picture>
+<br>Ref[33]: optimizer = torch.optim.SGD(model.parameters(), lr = 1) </br>
+</p>
+
+<p align="center" width="100%">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/surface_area.jpg">
+</picture>
+<br>Ref[34]: optimizer = torch.optim.SGD(model.parameters(), lr = 1) </br>
+</p>
+
+
+* FinalProject.ipynb
+* Final project create model and training.
 * AI Capstone Project with Deep Learning.ipynb
 
 ## References ##
