@@ -1895,7 +1895,7 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 🐨🎁🎵🎶 Person, objects, reflection, and angle can use classification method and sometimes we can perform calculations such as image's largest angle or object shape determination when finding the response shape with the most area or colour side 💍
 
 * Logistic_Regression_With_Mini-Batch_Gradient_Descent.ipynb
-- 
+- 🐨🎁🎵🎶 Regression is optimum point tuning with gradient decent method and learning value update, finding a new optimum point and comparing with the current from optimizer and learning rate value (lr). On the pane area, there are many possible to perform in an area larger learning rate faster the pointer go-through, and new optimum points can cross the best or actual optimum point. Precision can be trusted for results and accuracy is performed with specific the best is when training precision accuracy.     
 
 <p align="center" width="100%">
 <picture>
@@ -1921,9 +1921,9 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
 <br>Ref[34]: optimizer = torch.optim.SGD(model.parameters(), lr = 1) </br>
 </p>
 
-
 * FinalProject.ipynb
 * Final project create model and training.
+  
 * AI Capstone Project with Deep Learning.ipynb
 
 ## References ##
