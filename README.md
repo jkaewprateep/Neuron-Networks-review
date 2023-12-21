@@ -1833,7 +1833,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/minion.jpg">
 </picture>
-<br>Ref[27]: Objects detection </br>
+<br>Ref[28]: Objects detection </br>
 </p>
 
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
@@ -1844,7 +1844,7 @@ My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/mycat_echo.jpg">
 </picture>
-<br>Ref[27]: Objects detection </br>
+<br>Ref[29]: Objects detection </br>
 </p>
 
 My fast filter [Jump To]( https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/README.md#imges-centre-detection )
