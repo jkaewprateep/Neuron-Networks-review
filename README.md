@@ -2060,3 +2060,9 @@ compose = transforms.Compose([transforms.Resize((IMAGE_SIZE, IMAGE_SIZE)), trans
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contour_image_region.jpg">
   <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/contour_image_region.jpg">
 </picture>
+
+#### Image velocity ####
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_velocity.jpg">
+  <img alt="My sample applications" src="https://github.com/jkaewprateep/Neuron-Networks-review/blob/main/images/image_velocity.jpg">
+</picture>
